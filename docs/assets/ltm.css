@@ -1,0 +1,17 @@
+#map { 
+    /*height: 180px;*/
+    height: 70vh;
+    width: 100vw;
+    color: red;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
