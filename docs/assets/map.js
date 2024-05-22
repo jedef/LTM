@@ -30,6 +30,13 @@ const carte_1926 = L.tileLayer.swiss({...zeitreihen, timestamp: '19261231'});
 // tout actualisé en 1934
 const carte_1934 = L.tileLayer.swiss({...zeitreihen, timestamp: '19341231'});
 
+const geoJson2heat = function(geojson, intensity) {
+    return geojson.features.map(function(feature) {
+    return [parseFloat(feature.geometry.coordinates[1]), 
+            parseFloat(feature.geometry.coordinates[0]), intensity];
+    });
+    };
+
 
 class Map {
     constructor() {
@@ -66,6 +73,11 @@ class Map {
         this.geoJsonLayer = L.geoJSON(data, {
                 interactive: true
             }).addTo(this.map)
+        // this.geoJsonLayer = L.heatLayer(geoJson2heat(data, 4), {
+        //     radius: 25, // Adjust the radius as needed
+        //     blur: 15, // Adjust the blur as needed
+        //     maxZoom: 17 // Adjust the maxZoom as needed
+        // }).addTo(this.map);
     }
 }
 
