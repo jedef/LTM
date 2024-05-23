@@ -8,9 +8,16 @@ layout: default
 
 <div class="container">
     <label class="radio-label"><input type="radio" name="date_selection" value="old"> 1923</label>
-    <label class="radio-label"><input type="radio" name="date_selection" value="new"> 1954</label>
+    <label class="radio-label"><input type="radio" name="date_selection" value="new"> 1951</label>
+</div>
+<div class="container">
+    <label class="radio-label"><input type="radio" name="layers_selection" value="TOPOGRAPHIC"> carte topographique</label>
+    <label class="radio-label"><input type="radio" name="layers_selection" value="CITYMAP"> carte de lausanne</label>
+    <label class="radio-label"><input type="radio" name="layers_selection" value="BOTH"> les deux</label>
 </div>
 <select id="jobsDropdown"></select>
+<select id="addressDropdown"></select>
+
 
 <div id="map"></div>
 <script type="module" src="{{ "/assets/script.js" | relative_url }}"></script>

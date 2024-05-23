@@ -15,6 +15,16 @@ const carte_1937 = L.tileLayer.wms("https://map.lausanne.ch/mapserv_proxy?", {
     attribution: '© Lausanne, <a href="https://www.vd.ch/themes/territoire-et-construction/cadastre-et-geoinformation/geodonnees/commande-de-geodonnees/conditions-dutilisation/" target="_new">Etat de Vaud</a>, <a href="https://www.swisstopo.admin.ch/fr/bases-legales" target="_new">Swisstopo</a>'
 });
 
+const carte_1937_transparent = L.tileLayer.wms("https://map.lausanne.ch/mapserv_proxy?", {
+    ogcserver: "source for image/png",
+    layers: 'plans_histo_lsne_1937',
+    format: 'image/png',
+    transparent: true,
+    uppercase: "true",
+    maxZoom: 27,
+    attribution: '© Lausanne, <a href="https://www.vd.ch/themes/territoire-et-construction/cadastre-et-geoinformation/geodonnees/commande-de-geodonnees/conditions-dutilisation/" target="_new">Etat de Vaud</a>, <a href="https://www.swisstopo.admin.ch/fr/bases-legales" target="_new">Swisstopo</a>'
+});
+
 const zeitreihen = {
     format: 'png',
     layer: 'ch.swisstopo.zeitreihen',
@@ -56,7 +66,8 @@ class Map {
             1954: carte_1954,
             1926: carte_1926,
             1934: carte_1934,
-            1937: carte_1937
+            1937: carte_1937,
+            transparent_1937: carte_1937_transparent
         }
         this.backgroundLayers = []
         this.geoJsonLayer = null
