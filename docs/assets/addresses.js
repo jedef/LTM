@@ -23,6 +23,14 @@ class Feature {
         return this.properties.RUE_OFF
     }
 
+    getFullAddress() {
+        return this.properties.RUE_OFF + " " + this.properties.TEXTSTRING
+    }
+
+    getLeafletCoord() {
+        return [this.geometry.coordinates[1], this.geometry.coordinates[0]]
+    }
+
 }
 
 class Directory {

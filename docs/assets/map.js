@@ -40,6 +40,8 @@ const carte_1926 = L.tileLayer.swiss({...zeitreihen, timestamp: '19261231'});
 // tout actualisé en 1934
 const carte_1934 = L.tileLayer.swiss({...zeitreihen, timestamp: '19341231'});
 
+const directoryTable = document.getElementById("directory_table")
+
 const geoJson2heat = function(geojson, intensity) {
     return geojson.features.map(function(feature) {
     return [parseFloat(feature.geometry.coordinates[1]), 
@@ -71,6 +73,19 @@ class Map {
         }
         this.backgroundLayers = []
         this.geoJsonLayer = null
+        this.directoryTable = new gridjs.Grid({
+            columns: ["Nom", "Prénom", "Métier", "Adresse", {name: "coord", hidden: true}],
+            data: [],
+            height: "70vh",
+            fixedHeader: true,
+            pagination: {
+                limit: 100,
+                summary: true
+            },
+            search: true,
+            //sort: true // deactivated as forcerender is buggy with this option set
+        }).render(directoryTable)
+        this.directoryTable.on('rowClick', (event, data) => this.map.flyTo(data._cells[4].data, 27));
     }
 
     setBackgroundLayers(layers) {
@@ -79,7 +94,7 @@ class Map {
         this.backgroundLayers.forEach(layer => this.map.addLayer(layer))
     }
 
-    setJsonLayer(data) {
+    setJsonLayer(data, people) {
         if(this.geoJsonLayer) this.map.removeLayer(this.geoJsonLayer)
         this.geoJsonLayer = L.geoJSON(data, {
                 interactive: true
@@ -89,6 +104,10 @@ class Map {
         //     blur: 15, // Adjust the blur as needed
         //     maxZoom: 17 // Adjust the maxZoom as needed
         // }).addTo(this.map);
+        //console.log(people.map(person => [person.lastname, person.firstname, person.job, person.feature.getAddress()]))
+        this.directoryTable.updateConfig({
+            data: people.map(person => [person.lastname, person.firstname, person.job, person.feature.getFullAddress(), person.feature.getLeafletCoord()])
+        }).forceRender()
     }
 }
 

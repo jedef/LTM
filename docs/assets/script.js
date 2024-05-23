@@ -91,14 +91,14 @@ class App {
     if(filter===this.#jobsFilter) return
     this.#jobsFilter = filter
     this.jobsFilteredDirectory = this.addressFilteredDirectory.filterByJob(filter)
-    this.map.setJsonLayer(this.jobsFilteredDirectory.geojson)
+    this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
   }
 
   updateJsonLayer() {
     this.addressFilteredDirectory = this.directory.filterByAddress(this.#addressFilter)
     this.jobsFilteredDirectory = this.addressFilteredDirectory.filterByJob(this.#jobsFilter)
     console.log(this.jobsFilteredDirectory.geojson)
-    this.map.setJsonLayer(this.jobsFilteredDirectory.geojson)
+    this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
   }
 
 }
