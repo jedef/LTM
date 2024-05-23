@@ -28,6 +28,9 @@ const layers_radiobutton = {
   BOTH: document.querySelector("input[name='layers_selection'][value=BOTH]")
 }
 
+const jobsDropdown = document.getElementById("jobsDropdown")
+const addressDropdown = document.getElementById("addressDropdown")
+
 class App {
   map = new Map()
   backgroundLayers = {}
@@ -64,6 +67,8 @@ class App {
         data_year_radiobutton.Y1951.checked=true
         break
     }
+    if (populateDropdown(jobsDropdown, this.directory.jobs)) this.jobsFilter=jobsDropdown.value;
+    if (populateDropdown(addressDropdown, this.directory.addresses)) this.addressFilter = addressDropdown.value;
     if([layers.TOPOGRAPHIC, layers.BOTH].includes(this.#displayed_layers)) this.map.setBackgroundLayers(this.backgroundLayers[this.#displayed_layers])
     this.updateJsonLayer()
   }
@@ -115,57 +120,28 @@ layers_radiobutton.CITYMAP.addEventListener('change', function() {
 layers_radiobutton.BOTH.addEventListener('change', function() {
   app.displayed_layers=layers.BOTH
 })
-
-populateDropdown("jobsDropdown", app.directory.jobs);
-document.getElementById("jobsDropdown").addEventListener("change", function (event) {
-  const selectedValue = event.target.value;
-  console.log("Selected value:", selectedValue);
-  app.jobsFilter = selectedValue
+jobsDropdown.addEventListener("change", function (event) {
+  app.jobsFilter = event.target.value
+});
+addressDropdown.addEventListener("change", function (event) {
+  app.addressFilter = event.target.value
 });
 
-populateDropdown("addressDropdown", app.directory.addresses);
-document.getElementById("addressDropdown").addEventListener("change", function (event) {
-  const selectedValue = event.target.value;
-  console.log("Selected value:", selectedValue);
-  app.addressFilter = selectedValue
-});
-
-// Function to populate the dropdown
-function populateDropdown(dropdownId, values) {
-  values.unshift(allEntriesLabel)
-  const dropdown = document.getElementById(dropdownId);
+function populateDropdown(dropdown, values) {
+  values = [allEntriesLabel, ...values]
+  const oldvalue = dropdown.options.length? dropdown.value : null
+  dropdown.innerHTML=""
   values.forEach(value => {
     const option = document.createElement("option");
     option.text = value;
     option.value = value;
     dropdown.add(option);
   });
+  if(oldvalue!==null && values.includes(oldvalue)) {
+    dropdown.value = oldvalue
+    return false
+  }
+  else return true
 }
 
-
-function populateAddressesTable(data) {
-  const tableBody = document.querySelector("#addresses_table tbody");
-
-  data.forEach(item => {
-      const row = document.createElement("tr");
-
-      // Create and append the name cell
-      const nameCell = document.createElement("td");
-      nameCell.textContent = item.name;
-      row.appendChild(nameCell);
-
-      // Create and append the age cell
-      const ageCell = document.createElement("td");
-      ageCell.textContent = item.age;
-      row.appendChild(ageCell);
-
-      // Create and append the email cell
-      const emailCell = document.createElement("td");
-      emailCell.textContent = item.email;
-      row.appendChild(emailCell);
-
-      // Append the row to the table body
-      tableBody.appendChild(row);
-  });
-}
 
