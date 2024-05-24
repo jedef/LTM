@@ -31,6 +31,10 @@ class Feature {
         return [this.geometry.coordinates[1], this.geometry.coordinates[0]]
     }
 
+    getId() {
+        return this.properties.RUE_ABR.replace(/[^\w]/g, '') + this.properties.TEXTSTRING.replace(/[^\w]/g, '')
+    }
+
 }
 
 class Directory {

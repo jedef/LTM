@@ -64,6 +64,11 @@ class Map {
             layers: [carte_1937]
         
         });
+        L.control.scale({
+            metric: true,
+            imperial: false,
+            maxWidth: 200
+        }).addTo(this.map);
         this.layers = {
             1954: carte_1954,
             1926: carte_1926,
@@ -97,7 +102,31 @@ class Map {
     setJsonLayer(data, people) {
         if(this.geoJsonLayer) this.map.removeLayer(this.geoJsonLayer)
         this.geoJsonLayer = L.geoJSON(data, {
-                interactive: true
+                interactive: true,
+                onEachFeature: function(feature, layer) {
+                    var popupContent = "<strong>" + feature.getFullAddress() + "</strong><br>" +
+                                   "<div id='table-" + feature.getId() + "'></div>";
+                    layer.bindPopup(popupContent, {
+                        autoPan: true,
+                        maxWidth: 600,
+                    });
+                    layer.on('popupopen', function(event) {
+                        console.log(feature.getPeople())
+                        new gridjs.Grid({
+                            columns: ["Nom", "Prénom", "Métier"],
+                            data: feature.getPeople().map(person => [person.lastname, person.firstname, person.job]),
+                            className: {
+                                container: 'popup-gridjs-container',
+                              }
+                        }).render(document.getElementById("table-" + feature.getId()));
+                        setTimeout(function() {
+                            //It's a hack to call a private function, but I don't know how to do otherwise.
+                            //As table takes time to generate, the final height is not known when leaflet
+                            //automatically calls this function.
+                            event.popup._adjustPan();
+                        }, 200);
+                    });
+                }
             }).addTo(this.map)
         // this.geoJsonLayer = L.heatLayer(geoJson2heat(data, 4), {
         //     radius: 25, // Adjust the radius as needed
