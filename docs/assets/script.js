@@ -28,6 +28,8 @@ const layers_radiobutton = {
   BOTH: document.querySelector("input[name='layers_selection'][value=BOTH]")
 }
 
+const heatlayer_checkbox = document.getElementById("heatlayer_checkbox")
+
 const jobsDropdown = document.getElementById("jobsDropdown")
 const addressDropdown = document.getElementById("addressDropdown")
 
@@ -79,6 +81,10 @@ class App {
     this.#displayed_layers = label
   }
 
+  set displayHeatmap(display) {
+    this.map.displayHeatLayer(display)
+  }
+
   #addressFilter = allEntriesLabel
   set addressFilter(filter) {
     if(filter===this.#addressFilter) return
@@ -119,6 +125,9 @@ layers_radiobutton.CITYMAP.addEventListener('change', function() {
 })
 layers_radiobutton.BOTH.addEventListener('change', function() {
   app.displayed_layers=layers.BOTH
+})
+heatlayer_checkbox.addEventListener('change', function() {
+  app.displayHeatmap=heatlayer_checkbox.checked
 })
 jobsDropdown.addEventListener("change", function (event) {
   app.jobsFilter = event.target.value

@@ -28,7 +28,7 @@ class Feature {
     }
 
     getLeafletCoord() {
-        return [this.geometry.coordinates[1], this.geometry.coordinates[0]]
+        return L.latLng([this.geometry.coordinates[1], this.geometry.coordinates[0]])
     }
 
     getId() {

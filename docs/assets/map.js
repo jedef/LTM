@@ -100,10 +100,18 @@ class Map {
     }
 
     setJsonLayer(data, people) {
+        data.features.forEach(feature => feature.properties.nbpeople=0)
+        people.forEach(person => person.feature.properties.nbpeople+=1)
         if(this.geoJsonLayer) this.map.removeLayer(this.geoJsonLayer)
         this.geoJsonLayer = L.geoJSON(data, {
                 interactive: true,
-                onEachFeature: function(feature, layer) {
+                pointToLayer: function(feature, latlng) {
+                    const layer = L.marker(latlng, {
+                        //title: "feature.properties.nbpeople"
+                    }).bindTooltip(feature.properties.nbpeople.toString(), {
+                        permanent: false,
+                        direction: 'top',offset:L.point(-14, -5)
+                    })
                     var popupContent = "<strong>" + feature.getFullAddress() + "</strong><br>" +
                                    "<div id='table-" + feature.getId() + "'></div>";
                     layer.bindPopup(popupContent, {
@@ -126,17 +134,28 @@ class Map {
                             event.popup._adjustPan();
                         }, 200);
                     });
+                    return layer
                 }
             }).addTo(this.map)
-        // this.geoJsonLayer = L.heatLayer(geoJson2heat(data, 4), {
-        //     radius: 25, // Adjust the radius as needed
-        //     blur: 15, // Adjust the blur as needed
-        //     maxZoom: 17 // Adjust the maxZoom as needed
-        // }).addTo(this.map);
+        if(this.heatLayer && this.heatLayerDisplayed) this.map.removeLayer(this.heatLayer)
+            this.heatLayer = L.heatLayer(people.map(person=>person.feature.getLeafletCoord()), {
+                radius: 60,
+                blur: 15,
+                maxZoom: 23,
+                max: Math.max(5, people.length/15)
+            });
+        if(this.heatLayerDisplayed) this.heatLayer.addTo(this.map)
         //console.log(people.map(person => [person.lastname, person.firstname, person.job, person.feature.getAddress()]))
         this.directoryTable.updateConfig({
             data: people.map(person => [person.lastname, person.firstname, person.job, person.feature.getFullAddress(), person.feature.getLeafletCoord()])
         }).forceRender()
+    }
+
+    displayHeatLayer(display) {
+        if(display===this.heatLayerDisplayed) return
+        this.heatLayerDisplayed=display
+        if(display && this.heatLayer) this.heatLayer.addTo(this.map)
+        if(!display && this.heatLayer) this.map.removeLayer(this.heatLayer)
     }
 }
 
