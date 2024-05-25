@@ -27,6 +27,10 @@ class Feature {
         return this.properties.RUE_OFF + " " + this.properties.TEXTSTRING
     }
 
+    getNb() {
+        return this.properties.TEXTSTRING
+    }
+
     getLeafletCoord() {
         return L.latLng([this.geometry.coordinates[1], this.geometry.coordinates[0]])
     }
@@ -39,12 +43,25 @@ class Feature {
 
 class Directory {
     construct_from_geojson(geojson) {
-        this.features = geojson.features.map(feature => new Feature(feature))
+        const comparator = new Intl.Collator("fr", {sensitivity: "base"})
+        this.features = geojson.features.map(feature => {
+            feature = new Feature(feature)
+            feature.getPeople().sort(comparator.compare)
+            return feature
+            }).sort((a,b) => {
+            const res = comparator.compare(a.getAddress(), b.getAddress())
+            if (res) return res
+            const pattern = /(\d*)(.*)/
+            const [, num1,str1] = a.getNb().match(pattern)
+            const [, num2,str2] = b.getNb().match(pattern)
+            // str comparison if num1 and num2 equals or NaN
+            return num1-num2 || comparator.compare(str1, str2)
+        })
         this.geojson_headers = geojson
         //this.geojson_headers.features=undefined
         this.people = this.features.reduce((acc, cur) => acc.concat(cur.getPeople()), [])
-        this.jobs = this.generateJobsArray()
-        this.addresses = this.generateAddressesArray()
+        this.jobs = this.generateJobsArray().sort(comparator.compare)
+        this.addresses = this.generateAddressesArray().sort(comparator.compare)
     }
 
     constructor(directory, features, people) {
