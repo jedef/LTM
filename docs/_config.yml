@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Développement du quartier sous-gare de Lausanne entre 1925 et 1951
+title: Développement du quartier sous-gare de Lausanne entre 1923 et 1951
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Développement du quartier sous-gare de Lausanne entre 1925 et 1951
   Dynamiques d’urbanisme, de population et de transport 
 
 show_downloads: false
