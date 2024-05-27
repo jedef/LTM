@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "name": "adresses2",
+    "name": "addresses_final",
     "crs": {
         "type": "name",
         "properties": {
@@ -18,36 +18,6 @@
                     {
                         "firstname": "Elise-Marie",
                         "lastname": "Belotti-Bach",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Samuel",
-                        "lastname": "Bertholct",
-                        "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Louis-Charles, Clos Juliette",
-                        "lastname": "Cbapuis",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Chevallier-Troillet",
-                        "job": "menuisier"
-                    },
-                    {
-                        "firstname": "Giovanni",
-                        "lastname": "Defrancesco-Carrera",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Fr\u00e9d\u00e9ric",
-                        "lastname": "H\u00fchlen-Monachon",
-                        "job": "agriculteur"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Rapit",
                         "job": ""
                     }
                 ]
@@ -87,7 +57,7 @@
             "properties": {
                 "RUE_ABR": "Beau-Rivage",
                 "RUE_OFF": "Chemin de Beau-Rivage",
-                "TEXTSTRING": "0",
+                "TEXTSTRING": "21",
                 "PEOPLE": [
                     {
                         "firstname": "Jaques",
@@ -117,6 +87,11 @@
                     {
                         "firstname": "Madeleine",
                         "lastname": "Borel-Mabille",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Michel",
+                        "lastname": "Boulgaris-Dutoit",
                         "job": ""
                     },
                     {
@@ -180,6 +155,11 @@
                         "job": ""
                     },
                     {
+                        "firstname": "Emile",
+                        "lastname": "Klinger-Gerber",
+                        "job": "m\u00e9canicien"
+                    },
+                    {
                         "firstname": "Henri",
                         "lastname": "Kuttel",
                         "job": "courtier"
@@ -215,6 +195,11 @@
                         "job": "employ\u00e9"
                     },
                     {
+                        "firstname": "Achille",
+                        "lastname": "Schulthess",
+                        "job": "typographe"
+                    },
+                    {
                         "firstname": "Rudolf",
                         "lastname": "Stampili",
                         "job": "courtier"
@@ -234,337 +219,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.62993792403025,
-                    46.5091153386073
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Beau-Rivage",
-                "RUE_OFF": "Chemin de Beau-Rivage",
-                "TEXTSTRING": "1",
-                "PEOPLE": [
-                    {
-                        "firstname": "Hermance",
-                        "lastname": "Apoth\u00e9loz",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Rond &- Alfter",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Oswald",
-                        "lastname": "Rutschmaim",
-                        "job": "employ\u00e9"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.630588887265426,
-                    46.51048224668024
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Beau-Rivage",
-                "RUE_OFF": "Chemin de Beau-Rivage",
-                "TEXTSTRING": "2",
-                "PEOPLE": [
-                    {
-                        "firstname": "Ch",
-                        "lastname": "Mottas-Blattt",
-                        "job": "cocher"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.630501922144399,
-                    46.51097500820271
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Beau-Rivage",
-                "RUE_OFF": "Chemin de Beau-Rivage",
-                "TEXTSTRING": "3",
-                "PEOPLE": [
-                    {
-                        "firstname": "Blanche",
-                        "lastname": "Locoge-Broutin",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.63067293080389,
-                    46.51026422261897
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Beau-Rivage",
-                "RUE_OFF": "Chemin de Beau-Rivage",
-                "TEXTSTRING": "6",
-                "PEOPLE": [
-                    {
-                        "firstname": "Emile",
-                        "lastname": "Klinger-Gerber",
-                        "job": "m\u00e9canicien"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.629978196395784,
-                    46.50991421204172
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "0",
-                "PEOPLE": [
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Sandoz-Dupraz",
-                        "job": "chauffeur"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619332374982031,
-                    46.51558808550573
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "1",
-                "PEOPLE": [
-                    {
-                        "firstname": "Elise",
-                        "lastname": "Margot",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619937076987285,
-                    46.515138933076955
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "3",
-                "PEOPLE": [
-                    {
-                        "firstname": "Edouard",
-                        "lastname": "Meuron-Auberjonois",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Rod",
-                        "lastname": "Gloor-Frccllch",
-                        "job": "n\u00e9gociant"
-                    },
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Gloor-Gilli\u00e9ron",
-                        "job": "n\u00e9gociant"
-                    },
-                    {
-                        "firstname": "Melina",
-                        "lastname": "Grand",
-                        "job": "domestique"
-                    },
-                    {
-                        "firstname": "Berthe",
-                        "lastname": "Jaquier-Guidoux",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619699033001239,
-                    46.515230492016464
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "4",
-                "PEOPLE": [
-                    {
-                        "firstname": "Joseph",
-                        "lastname": "Bucher-\u00c9utter",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Gustave",
-                        "lastname": "Burnand-Schwab",
-                        "job": "inspecteur d'assurances"
-                    },
-                    {
-                        "firstname": "Prre",
-                        "lastname": "Chastonay-Etter",
-                        "job": "pharmacien"
-                    },
-                    {
-                        "firstname": "Jean",
-                        "lastname": "U\u00e9costerd",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Gavlllet-Michaud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Germaine",
-                        "lastname": "Men\u00e9trey",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619870940721094,
-                    46.515641179752414
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "5",
-                "PEOPLE": [
-                    {
-                        "firstname": "Edouard",
-                        "lastname": "Joyet",
-                        "job": "caissi\u00e8re"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Joyc-t-Vulliamoz",
-                        "job": "courtier"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619613066200901,
-                    46.51529072288904
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "9",
-                "PEOPLE": [
-                    {
-                        "firstname": "Alfred-Aug",
-                        "lastname": "Gcntizon",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.6192979291923,
-                    46.51545456694249
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "14",
-                "PEOPLE": [
-                    {
-                        "firstname": "C\u00e9cile",
-                        "lastname": "Vittoz",
-                        "job": "instituteur"
-                    },
-                    {
-                        "firstname": "Paul",
-                        "lastname": "Vittoz",
-                        "job": "compositeur"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619212715931362,
-                    46.51597403271493
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Bruy\u00e8res",
-                "RUE_OFF": "Chemin des Bruy\u00e8res",
-                "TEXTSTRING": "15",
-                "PEOPLE": [
-                    {
-                        "firstname": "Marthe-Marg",
-                        "lastname": "Guignard",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.618603383716942,
-                    46.515591877336114
+                    6.63003261131369,
+                    46.50795832350006
                 ]
             }
         },
@@ -600,28 +256,6 @@
             "properties": {
                 "RUE_ABR": "Port",
                 "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "0",
-                "PEOPLE": [
-                    {
-                        "firstname": "Innovation",
-                        "lastname": "Inniger-Blanc",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.628291601799868,
-                    46.50728269369768
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
                 "TEXTSTRING": "1",
                 "PEOPLE": [
                     {
@@ -637,21 +271,6 @@
                     {
                         "firstname": "Jos\u00e9phine",
                         "lastname": "Jacquet-Pralet",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Massard-Cuendet",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Alice",
-                        "lastname": "Yallon-Wagni\u00e8rcs",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "Alfred",
-                        "lastname": "Wyttenbach",
                         "job": ""
                     }
                 ]
@@ -669,128 +288,12 @@
             "properties": {
                 "RUE_ABR": "Port",
                 "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "2",
-                "PEOPLE": [
-                    {
-                        "firstname": "Antoine",
-                        "lastname": "Balaguer",
-                        "job": "imprimeur"
-                    },
-                    {
-                        "firstname": "Karl",
-                        "lastname": "Basler-Herb",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Pussex",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Joseph",
-                        "lastname": "Grossrieder-Roubaty",
-                        "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Rodolphe-Louis",
-                        "lastname": "Richon",
-                        "job": "man\u0153uvre"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.62765578495828,
-                    46.5067788004634
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "3",
-                "PEOPLE": [
-                    {
-                        "firstname": "Blanche",
-                        "lastname": "Adam",
-                        "job": "sommelier"
-                    },
-                    {
-                        "firstname": "Auguste",
-                        "lastname": "Belet",
-                        "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "Louise",
-                        "lastname": "Fauquex-Calaine",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Lina",
-                        "lastname": "Ferrandi-Streit",
-                        "job": "couturier"
-                    },
-                    {
-                        "firstname": "Jean",
-                        "lastname": "Kramer",
-                        "job": "cocher"
-                    },
-                    {
-                        "firstname": "Jules",
-                        "lastname": "S\u00e9chaud-Bertinat",
-                        "job": "peintre"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.627780675638538,
-                    46.50717445972303
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "5",
-                "PEOPLE": [
-                    {
-                        "firstname": "Blanche-Aug",
-                        "lastname": "Sthioul",
-                        "job": "m\u00e9nag\u00e8re"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.627897114198279,
-                    46.50716854507681
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
                 "TEXTSTRING": "7",
                 "PEOPLE": [
                     {
                         "firstname": "Lsa",
                         "lastname": "B\u00e6nzlger",
                         "job": "rentier"
-                    },
-                    {
-                        "firstname": "Ulrich",
-                        "lastname": "Bodenmann",
-                        "job": ""
                     },
                     {
                         "firstname": "Henri",
@@ -812,101 +315,12 @@
             "properties": {
                 "RUE_ABR": "Port",
                 "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "9",
-                "PEOPLE": [
-                    {
-                        "firstname": "Fran\u00e7ois-Louis",
-                        "lastname": "Aguet-Genton",
-                        "job": "directeur"
-                    },
-                    {
-                        "firstname": "Eug\u00e8ne",
-                        "lastname": "Mages",
-                        "job": "boulanger"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.628312703345425,
-                    46.50724070404561
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
-                "TEXTSTRING": "11",
-                "PEOPLE": [
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Huguet-Strenn",
-                        "job": "man\u0153uvre"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.628444272108868,
-                    46.507508825975336
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Port",
-                "RUE_OFF": "Place du Port",
                 "TEXTSTRING": "13",
                 "PEOPLE": [
-                    {
-                        "firstname": "Charles",
-                        "lastname": "Baud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Gabriel",
-                        "lastname": "Baud",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "H\u00e9l\u00e8ne",
-                        "lastname": "Baud",
-                        "job": "st\u00e9nographe"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Baud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Alexis",
-                        "lastname": "Baud-Estoppey",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Emile",
-                        "lastname": "H\u00e6sebrouck",
-                        "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "Modeste",
-                        "lastname": "Rista-Grosso",
-                        "job": "tailleur"
-                    },
                     {
                         "firstname": "Valentin",
                         "lastname": "Rolircr",
                         "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "",
-                        "job": ""
                     }
                 ]
             },
@@ -928,27 +342,7 @@
                     {
                         "firstname": "Max",
                         "lastname": "Auckenthaler-Petitma\u00eetre",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Burkhalter-Verdan",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Cossoul",
-                        "job": "coiffeur"
-                    },
-                    {
-                        "firstname": "Augustine",
-                        "lastname": "Cristiano-Favre",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Bertha",
-                        "lastname": "Pache",
-                        "job": "couturier"
+                        "job": "pension"
                     }
                 ]
             },
@@ -1161,7 +555,7 @@
                     {
                         "firstname": "Fr\u00e9d\u00e9ric",
                         "lastname": "Guillod",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Irma",
@@ -1548,12 +942,12 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Riboni-Scalabrino",
-                        "job": ""
+                        "job": "employ\u00e9 CFF"
                     },
                     {
                         "firstname": "Edouard",
                         "lastname": "Ruffy",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Alfred",
@@ -1726,12 +1120,12 @@
                     {
                         "firstname": "Arnold",
                         "lastname": "l\u00eerandt",
-                        "job": ""
+                        "job": "opticien"
                     },
                     {
                         "firstname": "Albert",
                         "lastname": "Giroud",
-                        "job": ""
+                        "job": "dessinateur"
                     },
                     {
                         "firstname": "Elise",
@@ -1763,12 +1157,12 @@
                     {
                         "firstname": "Justin",
                         "lastname": "Bischoff",
-                        "job": ""
+                        "job": "professeur de musique"
                     },
                     {
                         "firstname": "",
                         "lastname": "Karrer Mariann-Lina",
-                        "job": "ouvrier"
+                        "job": "gouvernante"
                     },
                     {
                         "firstname": "Charles",
@@ -1884,7 +1278,7 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Regamey-Burdet",
-                        "job": ""
+                        "job": "huissier du Conseil d\u2019Etat"
                     }
                 ]
             },
@@ -2071,7 +1465,7 @@
                     {
                         "firstname": "Edouard",
                         "lastname": "Barraud-Goldlnger",
-                        "job": ""
+                        "job": "employ\u00e9 CFF"
                     },
                     {
                         "firstname": "Henri",
@@ -2101,7 +1495,7 @@
                     {
                         "firstname": "Louise",
                         "lastname": "Jordan",
-                        "job": ""
+                        "job": "garde-malade"
                     },
                     {
                         "firstname": "Marie",
@@ -2131,7 +1525,7 @@
                     {
                         "firstname": "Auguste",
                         "lastname": "Siegrist",
-                        "job": ""
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "Louise",
@@ -2240,7 +1634,7 @@
                     {
                         "firstname": "Jeanne",
                         "lastname": "Savoy",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Enrico",
@@ -2443,7 +1837,7 @@
                     {
                         "firstname": "Robert",
                         "lastname": "Robellaz-Charbon",
-                        "job": "agriculteur"
+                        "job": "facteur"
                     },
                     {
                         "firstname": "Samuel",
@@ -2579,7 +1973,7 @@
                     {
                         "firstname": "G.",
                         "lastname": "Ruttimann-Grossenbacher",
-                        "job": "m\u00e9canicien"
+                        "job": "technicien"
                     },
                     {
                         "firstname": "Ernest",
@@ -2724,12 +2118,12 @@
                     {
                         "firstname": "",
                         "lastname": "Lipp-Jungo -Joseph",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Auguste",
                         "lastname": "Secretan",
-                        "job": ""
+                        "job": "dessinateur"
                     },
                     {
                         "firstname": "Jules",
@@ -2852,17 +2246,12 @@
                     {
                         "firstname": "",
                         "lastname": "Bardet-Corsat",
-                        "job": "caissi\u00e8re"
+                        "job": ""
                     },
                     {
                         "firstname": "Georges",
                         "lastname": "Billet-Cardinaux",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "J.-G., ferblant., Pr\u00e8s Montriond,",
-                        "lastname": "Graf-Am",
-                        "job": ""
+                        "job": "dentiste"
                     },
                     {
                         "firstname": "L.-H., pasteur, lesFontenailles,",
@@ -2872,17 +2261,12 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Roulet-Schneidcr",
-                        "job": "cocher"
+                        "job": "boucher"
                     },
                     {
                         "firstname": "P.-Il.,. Clos Erguel",
                         "lastname": "Savioz-Roehat",
                         "job": ""
-                    },
-                    {
-                        "firstname": "Louise-August",
-                        "lastname": "Violon",
-                        "job": "jardinier"
                     }
                 ]
             },
@@ -2899,69 +2283,12 @@
             "properties": {
                 "RUE_ABR": "Cour",
                 "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "1",
-                "PEOPLE": [
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Barraud-Michelson",
-                        "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "Th\u00e9r\u00e8se",
-                        "lastname": "Pasche",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Fcr\u00e9ol",
-                        "lastname": "Pilloud",
-                        "job": "boulanger"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.627602983614599,
-                    46.5118623899934
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
                 "TEXTSTRING": "2",
                 "PEOPLE": [
-                    {
-                        "firstname": "Joseph",
-                        "lastname": "Cherpit",
-                        "job": "employ\u00e9"
-                    },
                     {
                         "firstname": "Am\u00e9lie",
                         "lastname": "Clerc",
                         "job": "instituteur"
-                    },
-                    {
-                        "firstname": "Alfred",
-                        "lastname": "Dupuget-Dcvolz",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Ernest-S\u00e9raphin",
-                        "lastname": "Favre-Rubin",
-                        "job": "peintre"
-                    },
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Gucrry-Amaudruz",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Ad\u00e8le",
-                        "lastname": "Viret-Golaz",
-                        "job": "ling\u00e8re"
                     }
                 ]
             },
@@ -2986,19 +2313,9 @@
                         "job": "instituteur"
                     },
                     {
-                        "firstname": "Emma",
-                        "lastname": "Ccrcghctti - Beltraminclli",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
                         "firstname": "Henri-Edouard",
                         "lastname": "Cherix-Renaud",
-                        "job": "charcutier"
-                    },
-                    {
-                        "firstname": "Frieda",
-                        "lastname": "Ducret-Sclil\u00e4ppi",
-                        "job": ""
+                        "job": "charretier"
                     },
                     {
                         "firstname": "Robert",
@@ -3013,7 +2330,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Girard-Fuchs",
-                        "job": "fonctionnaire"
+                        "job": ""
                     },
                     {
                         "firstname": "Lucie",
@@ -3023,7 +2340,7 @@
                     {
                         "firstname": "Georges",
                         "lastname": "Lob-Thuillard",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Albert-Ls",
@@ -3044,11 +2361,6 @@
                         "firstname": "Paul",
                         "lastname": "Simon-Bakcr",
                         "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Stampili",
-                        "job": ""
                     }
                 ]
             },
@@ -3078,19 +2390,9 @@
                         "job": ""
                     },
                     {
-                        "firstname": "Alf",
-                        "lastname": "Blatter-Boulaz",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Paul",
                         "lastname": "Bmnncr-Chapuis",
-                        "job": "tailleur"
+                        "job": "appareilleur"
                     },
                     {
                         "firstname": "Ernest",
@@ -3108,34 +2410,14 @@
                         "job": "agriculteur"
                     },
                     {
-                        "firstname": "Georges",
-                        "lastname": "Goldcnblum",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Grand-Ballamami",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Jean-Ls, receveur CFF",
                         "lastname": "Hugli-Andrcs",
                         "job": ""
                     },
                     {
-                        "firstname": "Alfred",
-                        "lastname": "Jaccard-Rheiniger",
-                        "job": "jardinier"
-                    },
-                    {
                         "firstname": "",
                         "lastname": "Kalbfuss-von",
                         "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Alice",
-                        "lastname": "Lavanehy",
-                        "job": ""
                     },
                     {
                         "firstname": "Bug",
@@ -3170,24 +2452,9 @@
                 "TEXTSTRING": "5",
                 "PEOPLE": [
                     {
-                        "firstname": "Henri",
-                        "lastname": "Borgeaud",
-                        "job": "jounaliste"
-                    },
-                    {
                         "firstname": "Alexandre",
                         "lastname": "Boulgaris",
                         "job": "bijoutier"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "C\u0153ytaux-Dutruit",
-                        "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Cordcy",
-                        "job": "m\u00e9nag\u00e8re"
                     },
                     {
                         "firstname": "Sophie",
@@ -3195,39 +2462,9 @@
                         "job": ""
                     },
                     {
-                        "firstname": "Jenny",
-                        "lastname": "Dcnys-Borgcaud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Descoullayes-Piguet",
-                        "job": "menuisier"
-                    },
-                    {
-                        "firstname": "Cl\u00e9mence",
-                        "lastname": "Duperret",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Alice",
                         "lastname": "Dupuis",
                         "job": "st\u00e9nographe"
-                    },
-                    {
-                        "firstname": "Jaques - Emmanuel",
-                        "lastname": "Ferraris - Mazzia",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Gauthicr-Sehweitzcr",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Elise",
-                        "lastname": "Haldimann",
-                        "job": "domestique"
                     },
                     {
                         "firstname": "Frida",
@@ -3237,21 +2474,6 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Honegger-Haab",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Rosine",
-                        "lastname": "Mevcet-Friedricli",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "Pierre",
-                        "lastname": "Passera",
-                        "job": "tailleur"
-                    },
-                    {
-                        "firstname": "Bert",
-                        "lastname": "Piller-Sehwarz",
                         "job": ""
                     },
                     {
@@ -3273,16 +2495,6 @@
                         "firstname": "Charles",
                         "lastname": "Schmid-Meier",
                         "job": "ing\u00e9nieur"
-                    },
-                    {
-                        "firstname": "Charlotte",
-                        "lastname": "Ste\u00eefen-Ecoffey",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "Ch",
-                        "lastname": "l'",
-                        "job": "cordonnier"
                     },
                     {
                         "firstname": "",
@@ -3327,49 +2539,14 @@
                         "job": "comptable"
                     },
                     {
-                        "firstname": "Charles",
-                        "lastname": "Borgeaud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Elisa",
-                        "lastname": "Borgeaud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Eug",
-                        "lastname": "Clarct-Lesueur",
-                        "job": "coiffeur"
-                    },
-                    {
                         "firstname": "Francois,-av",
                         "lastname": "Cordey-Gilli\u00e9ron",
                         "job": ""
                     },
                     {
-                        "firstname": "",
-                        "lastname": "Hammerschlag Carl-Fr\u00e9d",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Blanche",
-                        "lastname": "Lambclct",
-                        "job": "couturier"
-                    },
-                    {
-                        "firstname": "Emma",
-                        "lastname": "Moor",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Ernest",
                         "lastname": "Moser-Hirschi",
-                        "job": "laitier"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Rieben-Vsland",
-                        "job": ""
+                        "job": "liftier"
                     },
                     {
                         "firstname": "Pierre",
@@ -3377,19 +2554,9 @@
                         "job": "ing\u00e9nieur"
                     },
                     {
-                        "firstname": "Robert",
-                        "lastname": "Sauty",
-                        "job": "n\u00e9gociant"
-                    },
-                    {
                         "firstname": "Martin",
                         "lastname": "Savary-Gilland",
                         "job": "ma\u00e7on"
-                    },
-                    {
-                        "firstname": "Emile",
-                        "lastname": "Simon-Jaton",
-                        "job": "cordonnier"
                     }
                 ]
             },
@@ -3424,18 +2591,8 @@
                         "job": ""
                     },
                     {
-                        "firstname": "",
-                        "lastname": "",
-                        "job": "architecte"
-                    },
-                    {
                         "firstname": "Jeanne",
                         "lastname": "Conrad",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Ch",
-                        "lastname": "Grivat-Lnmbardet",
                         "job": ""
                     },
                     {
@@ -3503,7 +2660,7 @@
                     {
                         "firstname": "Isaac-",
                         "lastname": "Bloch-Ber",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Marie",
@@ -3526,23 +2683,8 @@
                         "job": "concierge"
                     },
                     {
-                        "firstname": "Marie",
-                        "lastname": "Gandin",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Ren\u00e9",
                         "lastname": "Margot-Sennwald",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Robert",
-                        "lastname": "Perrenoud",
-                        "job": "m\u00e9canicien"
-                    },
-                    {
-                        "firstname": "Hedwige",
-                        "lastname": "R\u00f6ssler-Fritsche",
                         "job": ""
                     },
                     {
@@ -3585,32 +2727,12 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Aubert-Rapin",
-                        "job": "compositeur"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Augsburger",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Bertholct",
-                        "job": ""
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Elise",
                         "lastname": "Cbappuis-Marti",
                         "job": "\u00e9picier"
-                    },
-                    {
-                        "firstname": "David",
-                        "lastname": "Cnany-Dubois",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Favre-Piot",
-                        "job": "employ\u00e9"
                     },
                     {
                         "firstname": "Jules",
@@ -3623,38 +2745,13 @@
                         "job": "employ\u00e9 CFF"
                     },
                     {
-                        "firstname": "Louis",
-                        "lastname": "Grivel",
-                        "job": "jardinier"
-                    },
-                    {
-                        "firstname": "Ernest",
-                        "lastname": "Henny",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Robert",
                         "lastname": "Humm-Zwahlen",
                         "job": "employ\u00e9"
                     },
                     {
-                        "firstname": "Pancrazio",
-                        "lastname": "Marziani",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Rosalie",
                         "lastname": "Monnct-Gauthey",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "G.",
-                        "lastname": "Oisini-Amos",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Blanche",
-                        "lastname": "Pache-Grivel",
                         "job": ""
                     },
                     {
@@ -3665,17 +2762,12 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Reiclienbach-Giroud",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Emile",
                         "lastname": "Stofer",
                         "job": "tailleur"
-                    },
-                    {
-                        "firstname": "Ernest",
-                        "lastname": "Wiirsten",
-                        "job": ""
                     }
                 ]
             },
@@ -3702,17 +2794,12 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Bugnon-Pingucly",
-                        "job": "employ\u00e9 CFF"
+                        "job": "employ\u00e9"
                     },
                     {
                         "firstname": ".Tean-Joseph",
                         "lastname": "Cachin-Thomann",
                         "job": "jardinier"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "Calori & Degandenzi",
-                        "job": ""
                     },
                     {
                         "firstname": "Nestor",
@@ -3733,11 +2820,6 @@
                         "firstname": "Walter",
                         "lastname": "Gautschy-Dufresne",
                         "job": "\u00e9b\u00e9niste"
-                    },
-                    {
-                        "firstname": "Jenny-llenriette",
-                        "lastname": "Gret-Briand",
-                        "job": ""
                     },
                     {
                         "firstname": "Benoit",
@@ -3827,16 +2909,6 @@
                         "job": ""
                     },
                     {
-                        "firstname": "Constant",
-                        "lastname": "Cordcy",
-                        "job": "cocher"
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Gaillard-Rapin",
-                        "job": "typographe"
-                    },
-                    {
                         "firstname": "Salira",
                         "lastname": "Junod",
                         "job": ""
@@ -3847,11 +2919,6 @@
                         "job": "chef d\u2019institution"
                     },
                     {
-                        "firstname": "Charles",
-                        "lastname": "Moraz-Rnfener",
-                        "job": "menuisier"
-                    },
-                    {
                         "firstname": "Armand",
                         "lastname": "Mottet-Marchand",
                         "job": "chauffeur CFF"
@@ -3859,17 +2926,12 @@
                     {
                         "firstname": "Ch",
                         "lastname": "Neyroud-Bovard",
-                        "job": "employ\u00e9 tramway"
-                    },
-                    {
-                        "firstname": "Marcel",
-                        "lastname": "Noverraz-Schiitz",
-                        "job": "courtier"
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Jean",
                         "lastname": "Richard-Stoudmann",
-                        "job": "commis"
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "Edouard",
@@ -3894,11 +2956,6 @@
                 "TEXTSTRING": "13",
                 "PEOPLE": [
                     {
-                        "firstname": "Jaques",
-                        "lastname": "Bonny-Fivaz",
-                        "job": "repr\u00e9sentant"
-                    },
-                    {
                         "firstname": "",
                         "lastname": "",
                         "job": "policier"
@@ -3906,22 +2963,12 @@
                     {
                         "firstname": "Alfred",
                         "lastname": "Chanson-Bohnenblust",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Albert",
                         "lastname": "Crozet-Bcsen\u00e7on",
                         "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "Edouard",
-                        "lastname": "Cruchon-Berger",
-                        "job": "cocher"
-                    },
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Faillettaz-Magnenat",
-                        "job": "m\u00e9canicien"
                     },
                     {
                         "firstname": "Th\u00e9ophile",
@@ -3949,11 +2996,6 @@
                         "job": "chauffeur"
                     },
                     {
-                        "firstname": "Ch",
-                        "lastname": "Maget-Clot",
-                        "job": "serrurier"
-                    },
-                    {
                         "firstname": "Nancy",
                         "lastname": "Magnenat-Grivaz",
                         "job": ""
@@ -3969,19 +3011,9 @@
                         "job": "man\u0153uvre"
                     },
                     {
-                        "firstname": "Samuel",
-                        "lastname": "Regamey-Gaillard",
-                        "job": "cocher"
-                    },
-                    {
                         "firstname": "Aug",
                         "lastname": "Renevey-Thierrin",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Jacob",
-                        "lastname": "Sauter",
-                        "job": "t\u00e9l\u00e9graphiste"
+                        "job": "machiniste"
                     },
                     {
                         "firstname": "Oreste",
@@ -4000,609 +3032,6 @@
                 "coordinates": [
                     6.625311978775331,
                     46.512098644119895
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "14",
-                "PEOPLE": [
-                    {
-                        "firstname": "Henri",
-                        "lastname": "Avondo-Bonjour",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Yvonne",
-                        "lastname": "Chuard",
-                        "job": "sommelier"
-                    },
-                    {
-                        "firstname": "A.",
-                        "lastname": "Chuard-Savarv",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Crausaz-M\u0153nnoz",
-                        "job": "n\u00e9gociant"
-                    },
-                    {
-                        "firstname": "Elisabeth",
-                        "lastname": "Limacher",
-                        "job": "domestique"
-                    },
-                    {
-                        "firstname": "Juliette",
-                        "lastname": "Th\u00e9voz",
-                        "job": "domestique"
-                    },
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Zillweger-Aguet",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.623074760354683,
-                    46.512818024788565
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "15",
-                "PEOPLE": [
-                    {
-                        "firstname": "Georges",
-                        "lastname": "Boroud",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Charles-Louis",
-                        "lastname": "Borei",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Fritz",
-                        "lastname": "Borel-Dnvoisin",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "C\u00e9cile",
-                        "lastname": "Grand",
-                        "job": "blanchisseuse"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Jean",
-                        "lastname": "Lcemann-Chaperon",
-                        "job": "ma\u00e7on"
-                    },
-                    {
-                        "firstname": "Edith",
-                        "lastname": "Matthey",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Steger-Ronigcr",
-                        "job": "m\u00e9nag\u00e8re"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.625031512024301,
-                    46.512136926139085
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "16",
-                "PEOPLE": [
-                    {
-                        "firstname": "Antoinette-Constance",
-                        "lastname": "Berthet",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Brunet",
-                        "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Alice",
-                        "lastname": "Doy",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "Jules",
-                        "lastname": "Duperrex",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marcel",
-                        "lastname": "Favcz",
-                        "job": "m\u00e9canicien"
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Gasser",
-                        "job": "cordonnier"
-                    },
-                    {
-                        "firstname": "Laure",
-                        "lastname": "Lassnenr",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Madeleine",
-                        "lastname": "Lassnenr",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Ad\u00e8le",
-                        "lastname": "Perret",
-                        "job": "couturier"
-                    },
-                    {
-                        "firstname": "Ls",
-                        "lastname": "Recordon-Cand",
-                        "job": "tapissier"
-                    },
-                    {
-                        "firstname": "Louise",
-                        "lastname": "Saudan",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "L\u00e9on-Constant",
-                        "lastname": "Saudan-Vesln",
-                        "job": "chimiste"
-                    },
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Vesin-Jcnni",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.62251299646285,
-                    46.513034659348996
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "17",
-                "PEOPLE": [
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Badoud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Luigi",
-                        "lastname": "Boldrini-Paolo",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Fr\u00e9d",
-                        "lastname": "Fawer-Marmoud",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Olga-Blanche",
-                        "lastname": "Giovanelli",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Emile",
-                        "lastname": "Paschoud-Rccordon",
-                        "job": "jounaliste"
-                    },
-                    {
-                        "firstname": "Jenny",
-                        "lastname": "Vincent-Chamot",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.624854489550636,
-                    46.512158956077286
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "18",
-                "PEOPLE": [
-                    {
-                        "firstname": "",
-                        "lastname": "Guilloud-Rotlien",
-                        "job": "man\u0153uvre"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.622295586362386,
-                    46.513565041317776
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "19",
-                "PEOPLE": [
-                    {
-                        "firstname": "Robert",
-                        "lastname": "Calarne",
-                        "job": "laitier"
-                    },
-                    {
-                        "firstname": "Armand",
-                        "lastname": "Widmcr",
-                        "job": "serrurier"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.624666849869723,
-                    46.5121851377108
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "23",
-                "PEOPLE": [
-                    {
-                        "firstname": "C\u00e9cile",
-                        "lastname": "Crisperio",
-                        "job": "m\u00e9nag\u00e8re"
-                    },
-                    {
-                        "firstname": "Ant",
-                        "lastname": "Forest-Desponds",
-                        "job": "coiffeur"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.623727378385214,
-                    46.511838975918344
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "25",
-                "PEOPLE": [
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Bille-Amiguet",
-                        "job": "m\u00e9nag\u00e8re"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.623145314871126,
-                    46.51232022029576
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "27",
-                "PEOPLE": [
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Heys\u00e9",
-                        "job": "cordonnier"
-                    },
-                    {
-                        "firstname": "Paul",
-                        "lastname": "Lchrian",
-                        "job": "tonnelier"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.623364369726496,
-                    46.51234455455279
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "29",
-                "PEOPLE": [
-                    {
-                        "firstname": "Jules",
-                        "lastname": "Capt-Cart",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Elie",
-                        "lastname": "Durand",
-                        "job": "professeur"
-                    },
-                    {
-                        "firstname": "Firm",
-                        "lastname": "Gevisier-K\u00e6scr",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "Ad\u00e8le",
-                        "lastname": "Grevat-Pasche",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.621673505019286,
-                    46.51278098565098
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "33",
-                "PEOPLE": [
-                    {
-                        "firstname": "H\u00e9l\u00e8ne",
-                        "lastname": "Henny",
-                        "job": "boulanger"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619678240658539,
-                    46.51364715514735
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "35",
-                "PEOPLE": [
-                    {
-                        "firstname": "Werner",
-                        "lastname": "Bcyelcr",
-                        "job": "serrurier"
-                    },
-                    {
-                        "firstname": "Julie-Ese",
-                        "lastname": "Devenoges-Giroud",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marg",
-                        "lastname": "Favet",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Alfred",
-                        "lastname": "Hans-Maget",
-                        "job": "vendeur"
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Pasche",
-                        "job": "charron"
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Pasche",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.618785307381121,
-                    46.51310509338018
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "37",
-                "PEOPLE": [
-                    {
-                        "firstname": "Johann",
-                        "lastname": "AVeibel",
-                        "job": "m\u00e9canicien"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619654753420885,
-                    46.51307573381931
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Cour",
-                "RUE_OFF": "Avenue de Cour",
-                "TEXTSTRING": "41",
-                "PEOPLE": [
-                    {
-                        "firstname": "Paul",
-                        "lastname": "Berlic",
-                        "job": "tailleur"
-                    },
-                    {
-                        "firstname": "Ad\u00e8le",
-                        "lastname": "Br\u00f2de",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Ida",
-                        "lastname": "Br\u00f2de",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Julien",
-                        "lastname": "Fontannaz",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Julien-Gust",
-                        "lastname": "Fontannaz-Danlte",
-                        "job": "menuisier"
-                    },
-                    {
-                        "firstname": "Louis",
-                        "lastname": "Forestier",
-                        "job": "employ\u00e9"
-                    },
-                    {
-                        "firstname": "Louisa",
-                        "lastname": "Forestier",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Alf",
-                        "lastname": "Gay-Allenbach",
-                        "job": "menuisier"
-                    },
-                    {
-                        "firstname": "Paul",
-                        "lastname": "Grct",
-                        "job": "man\u0153uvre"
-                    },
-                    {
-                        "firstname": "R\u00e9gina",
-                        "lastname": "Locatelli",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Jules",
-                        "lastname": "Perrin-Lamy",
-                        "job": "serrurier"
-                    },
-                    {
-                        "firstname": "Eva",
-                        "lastname": "Richoz",
-                        "job": "coiffeur"
-                    },
-                    {
-                        "firstname": "Mathilde",
-                        "lastname": "Sciler-Sallin",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Tcrmignoni",
-                        "job": "couturier"
-                    },
-                    {
-                        "firstname": "Maria",
-                        "lastname": "Viti-Lader",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Blanche",
-                        "lastname": "AYirtz",
-                        "job": "couturier"
-                    },
-                    {
-                        "firstname": "",
-                        "lastname": "AVirtz-Lambert",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Jules-Albert",
-                        "lastname": "Zbinden-Maumary",
-                        "job": "typographe"
-                    },
-                    {
-                        "firstname": "Albert",
-                        "lastname": "Zeller-Perroulaz",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.619305334228604,
-                    46.514236098388224
                 ]
             }
         },
@@ -5672,7 +4101,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Porchet-Rochat",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Marcel",
@@ -6023,7 +4452,7 @@
                     {
                         "firstname": "Robert",
                         "lastname": "Zbinden-Jacquier",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     }
                 ]
             },
@@ -6055,7 +4484,7 @@
                     {
                         "firstname": "Ernest",
                         "lastname": "Rub-Wyss",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "T\u00e9r\u00e9sa",
@@ -6316,7 +4745,7 @@
                     {
                         "firstname": "Adrien",
                         "lastname": "Bonz\u00e9",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Georges",
@@ -6378,7 +4807,7 @@
                     {
                         "firstname": "",
                         "lastname": "Gradwohl-Uh'",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Fr\u00e9d\u00e9ric",
@@ -6480,7 +4909,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Moser-Ricliard",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "A.-Alfr., ing..",
@@ -6584,7 +5013,7 @@
                     {
                         "firstname": "Fr\u00e9d\u00e9ric",
                         "lastname": "Leder-Pasehoud",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Raoul",
@@ -6594,7 +5023,7 @@
                     {
                         "firstname": "Alois",
                         "lastname": "Meylan-Loeher",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Clara",
@@ -6965,7 +5394,7 @@
                     {
                         "firstname": "Gustave",
                         "lastname": "Chappuis-Erismaim",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Julia-Frida",
@@ -6980,7 +5409,7 @@
                     {
                         "firstname": "Hermann",
                         "lastname": "Gu\u00e8rci",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Auguste",
@@ -7092,7 +5521,7 @@
                     {
                         "firstname": "Pierre",
                         "lastname": "Dubois-Moscr",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Jules",
@@ -7278,7 +5707,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Mlchod-Blanc",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Andr\u00e9as",
@@ -7419,7 +5848,7 @@
                     {
                         "firstname": "Umberto",
                         "lastname": "Rognoni-Noni",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Rodolphe",
@@ -7672,6 +6101,11 @@
                         "firstname": "Odette",
                         "lastname": "Parisod",
                         "job": "ling\u00e8re"
+                    },
+                    {
+                        "firstname": "Henri",
+                        "lastname": "Parisod-Ruchti",
+                        "job": "m\u00e9canicien"
                     }
                 ]
             },
@@ -7979,7 +6413,7 @@
                     {
                         "firstname": "Robert",
                         "lastname": "Plot-Packe",
-                        "job": ""
+                        "job": "ing\u00e9nieur"
                     },
                     {
                         "firstname": "Oswald",
@@ -8028,7 +6462,7 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Sctiaad",
-                        "job": ""
+                        "job": "n\u00e9gociant"
                     }
                 ]
             },
@@ -8087,12 +6521,12 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Nerny-Gersbach",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Henri",
                         "lastname": "Nerny-Gersbach",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Christian-L\u00e9on",
@@ -8208,7 +6642,7 @@
                     {
                         "firstname": "Emma",
                         "lastname": "Cu\u00e9noud",
-                        "job": "ouvrier"
+                        "job": "gouvernante"
                     },
                     {
                         "firstname": "Juliette",
@@ -8510,7 +6944,7 @@
                     {
                         "firstname": "Max",
                         "lastname": "Guggenheim-L\u00e9vy",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Louis",
@@ -9830,7 +8264,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Jschy-Jaques",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Albert",
@@ -9967,7 +8401,7 @@
                     {
                         "firstname": "Jules-Henri",
                         "lastname": "Regamey-Regamey",
-                        "job": ""
+                        "job": "secr\u00e9taire"
                     },
                     {
                         "firstname": "J eanne-Fran\u00e7oise",
@@ -10358,7 +8792,7 @@
                     {
                         "firstname": "Georges",
                         "lastname": "Parriat",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     }
                 ]
             },
@@ -11125,15 +9559,15 @@
                     {
                         "firstname": "",
                         "lastname": "Blanc-Pilet Jenny Vvc",
-                        "job": ""
+                        "job": "employ\u00e9 de banque"
                     }
                 ]
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.628311054394443,
-                    46.51573562727384
+                    6.628240184070526,
+                    46.51575112564651
                 ]
             }
         },
@@ -11147,7 +9581,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Bonjour-de Rachewskl",
-                        "job": ""
+                        "job": "m\u00e9decin"
                     },
                     {
                         "firstname": "Roger",
@@ -11172,12 +9606,12 @@
                     {
                         "firstname": "Marius",
                         "lastname": "Visinand-Gendre",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Bertha",
                         "lastname": "W\u00e4chter",
-                        "job": ""
+                        "job": "femme de chambre"
                     }
                 ]
             },
@@ -11226,7 +9660,7 @@
                     {
                         "firstname": "Paul",
                         "lastname": "Buffe",
-                        "job": ""
+                        "job": "employ\u00e9 des douanes"
                     },
                     {
                         "firstname": "Fanny",
@@ -11256,7 +9690,7 @@
                     {
                         "firstname": "Edouard",
                         "lastname": "Krafft-Dufour",
-                        "job": ""
+                        "job": "substitut du procureur g\u00e9n\u00e9n\u00e9ral"
                     },
                     {
                         "firstname": "Marcelle",
@@ -11303,7 +9737,7 @@
                     {
                         "firstname": "J",
                         "lastname": "Duport-Trinkard",
-                        "job": "couturier"
+                        "job": "combustibles"
                     },
                     {
                         "firstname": "Jules",
@@ -11402,12 +9836,12 @@
                     {
                         "firstname": "Louise-Mary",
                         "lastname": "Gray",
-                        "job": ""
+                        "job": "pension"
                     },
                     {
                         "firstname": "Fr\u00e9d\u00e9rique",
                         "lastname": "Martin",
-                        "job": ""
+                        "job": "m\u00e9decin"
                     },
                     {
                         "firstname": "Sara",
@@ -11427,7 +9861,7 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Wcrtenschlag-Risscr",
-                        "job": ""
+                        "job": "n\u00e9gociant"
                     }
                 ]
             },
@@ -11484,7 +9918,7 @@
                     {
                         "firstname": "Lucie",
                         "lastname": "Kurth",
-                        "job": ""
+                        "job": "prof de piano"
                     },
                     {
                         "firstname": "Adr",
@@ -11524,7 +9958,7 @@
                     {
                         "firstname": "H\u00e9l\u00e8ne",
                         "lastname": "Steiner",
-                        "job": ""
+                        "job": "professeur de piano"
                     },
                     {
                         "firstname": "Marie",
@@ -11601,7 +10035,7 @@
                     {
                         "firstname": "Eug\u00e9nie",
                         "lastname": "Burri",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Firmiti",
@@ -11621,7 +10055,7 @@
                     {
                         "firstname": "Jean-Jaques, empi, vostal",
                         "lastname": "Ogay-Bucher",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Marie",
@@ -11678,7 +10112,7 @@
                     {
                         "firstname": "Ernest",
                         "lastname": "Sangy-d\u2019Orelli",
-                        "job": ""
+                        "job": "directeur du Cr\u00e9dit Suisse"
                     },
                     {
                         "firstname": "",
@@ -11720,7 +10154,7 @@
                     {
                         "firstname": "Alice",
                         "lastname": "Burgoner",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Marie",
@@ -11735,7 +10169,7 @@
                     {
                         "firstname": "Ren\u00e9",
                         "lastname": "Fresse",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Rose-Juliette",
@@ -11750,12 +10184,12 @@
                     {
                         "firstname": "Franz-Emile",
                         "lastname": "Odenwald-Scheier",
-                        "job": ""
+                        "job": "n\u00e9gociant"
                     },
                     {
                         "firstname": "Rosa",
                         "lastname": "Martho-Emma",
-                        "job": ""
+                        "job": "garde-malade"
                     },
                     {
                         "firstname": "Constant",
@@ -11770,17 +10204,17 @@
                     {
                         "firstname": "Ed",
                         "lastname": "Rochat-Duboux",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Ren\u00e9",
                         "lastname": "Tnruvanni-Renaud",
-                        "job": "ouvrier"
+                        "job": "vitrier"
                     },
                     {
                         "firstname": "Jean",
                         "lastname": "Vionnet-Fillbertl",
-                        "job": "administrateur"
+                        "job": "vulcanisateur"
                     },
                     {
                         "firstname": "Aline",
@@ -11832,12 +10266,12 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Combernous-Demont",
-                        "job": "commis"
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "Augustine",
                         "lastname": "D\u00e9perraz-Thutllard",
-                        "job": "rentier"
+                        "job": "dentelli\u00e8re"
                     },
                     {
                         "firstname": "Bertha",
@@ -11862,7 +10296,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Wagner-Favez",
-                        "job": ""
+                        "job": "chef de bureau postal"
                     }
                 ]
             },
@@ -11904,7 +10338,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Meillard-Grln",
-                        "job": ""
+                        "job": "sous-chef de gare"
                     },
                     {
                         "firstname": "Julie-L\u00e9onie",
@@ -11981,7 +10415,7 @@
                     {
                         "firstname": "Adolphe",
                         "lastname": "Pasche-Colonna",
-                        "job": ""
+                        "job": "secr\u00e9taire \u00e0 la direction de police"
                     },
                     {
                         "firstname": "Elisa",
@@ -12023,12 +10457,12 @@
                     {
                         "firstname": "Lucio",
                         "lastname": "Thiault-Rossicr",
-                        "job": ""
+                        "job": "directeur de pensionnat"
                     },
                     {
                         "firstname": "",
                         "lastname": "",
-                        "job": ""
+                        "job": "combustibles"
                     }
                 ]
             },
@@ -12065,7 +10499,7 @@
                     {
                         "firstname": "Samuel",
                         "lastname": "Pf und-Widmeyer",
-                        "job": ""
+                        "job": "commis de poste"
                     }
                 ]
             },
@@ -12114,12 +10548,12 @@
                     {
                         "firstname": "Olga",
                         "lastname": "Adout-Balitzer",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Christian",
                         "lastname": "\u00c6berbard - Irion",
-                        "job": "bijoutier"
+                        "job": "bottier"
                     },
                     {
                         "firstname": "Aim\u00e9",
@@ -12139,7 +10573,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Dovat",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Ad\u00e8le",
@@ -12149,7 +10583,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Ehingcr",
-                        "job": "chauffeur CFF"
+                        "job": "chef bureau CFF"
                     },
                     {
                         "firstname": "Philippe",
@@ -12159,12 +10593,12 @@
                     {
                         "firstname": "Arnold",
                         "lastname": "Volcry",
-                        "job": ""
+                        "job": "employ\u00e9"
                     },
                     {
                         "firstname": "Jeanne",
                         "lastname": "Walther",
-                        "job": ""
+                        "job": "lithographe"
                     }
                 ]
             },
@@ -12186,7 +10620,7 @@
                     {
                         "firstname": "Jeanne",
                         "lastname": "Favre",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Alexandre",
@@ -12216,7 +10650,7 @@
                     {
                         "firstname": "Charles-Arthur",
                         "lastname": "Pcm-noiid-Kiimmerli",
-                        "job": ""
+                        "job": "rentier"
                     },
                     {
                         "firstname": "Edouard",
@@ -12231,7 +10665,7 @@
                     {
                         "firstname": "Luigi",
                         "lastname": "Vassali",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     }
                 ]
             },
@@ -12258,7 +10692,7 @@
                     {
                         "firstname": "Ed",
                         "lastname": "D\u00e9traz-Schardon",
-                        "job": ""
+                        "job": "n\u00e9gociant en vins"
                     },
                     {
                         "firstname": "L\u00e9on",
@@ -12268,7 +10702,7 @@
                     {
                         "firstname": "Anton",
                         "lastname": "Koch",
-                        "job": "man\u0153uvre"
+                        "job": "man\u0153uvre CFF"
                     },
                     {
                         "firstname": "Albert",
@@ -12315,7 +10749,7 @@
                     {
                         "firstname": "Eug\u00e8ne",
                         "lastname": "Berney-Devenoge",
-                        "job": ""
+                        "job": "sous-chef de gare"
                     },
                     {
                         "firstname": "Lina-Emma",
@@ -12392,12 +10826,12 @@
                     {
                         "firstname": "Ren\u00e9",
                         "lastname": "Annen-Bonetti",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Elise",
                         "lastname": "Rally",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Aug",
@@ -12432,17 +10866,17 @@
                     {
                         "firstname": "Constant",
                         "lastname": "Drtiey-Bluin",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     },
                     {
                         "firstname": "Pierre",
                         "lastname": "Gottofrey-Dcmi\u00e9villo",
-                        "job": ""
+                        "job": "employ\u00e9"
                     },
                     {
                         "firstname": "Anna",
                         "lastname": "Hsegclin",
-                        "job": "ouvrier"
+                        "job": "gouvernante"
                     },
                     {
                         "firstname": "Charles",
@@ -12467,7 +10901,7 @@
                     {
                         "firstname": "Ed",
                         "lastname": "Wintsch-Sevrin",
-                        "job": ""
+                        "job": "ing\u00e9nieur-professeur"
                     }
                 ]
             },
@@ -12499,7 +10933,7 @@
                     {
                         "firstname": "",
                         "lastname": "Mermier-Mac",
-                        "job": ""
+                        "job": "ing\u00e9nieur"
                     },
                     {
                         "firstname": "Marg",
@@ -12509,7 +10943,7 @@
                     {
                         "firstname": "Auguste",
                         "lastname": "Willer-von",
-                        "job": "secr\u00e9taire CFF"
+                        "job": "inspecteur CFF"
                     }
                 ]
             },
@@ -12571,7 +11005,7 @@
                     {
                         "firstname": "Angelo",
                         "lastname": "Molinari-H\u00e6gclin",
-                        "job": ""
+                        "job": "gypsier"
                     },
                     {
                         "firstname": "Lina-Marie",
@@ -12613,7 +11047,7 @@
                     {
                         "firstname": "H\u00e9l\u00e8ne",
                         "lastname": "de Lerber-Thomann",
-                        "job": ""
+                        "job": "professeur de piano et de chant"
                     },
                     {
                         "firstname": "Eug\u00e8ne",
@@ -12628,12 +11062,12 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Maggl-Lambeiet",
-                        "job": ""
+                        "job": "gypsier"
                     },
                     {
                         "firstname": "Alice",
                         "lastname": "Schmutz",
-                        "job": ""
+                        "job": "professeur de peinture"
                     }
                 ]
             },
@@ -12655,7 +11089,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Binggcli-Metzger",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Ren\u00e9e",
@@ -12690,7 +11124,7 @@
                     {
                         "firstname": "Antoine",
                         "lastname": "Imbert-Haller",
-                        "job": "cocher"
+                        "job": "boucher"
                     },
                     {
                         "firstname": "Ernest",
@@ -12774,12 +11208,12 @@
                     {
                         "firstname": "Gustave-Edmond",
                         "lastname": "Lambert",
-                        "job": "conducteur CFF"
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "L\u00e9on",
                         "lastname": "Lambert",
-                        "job": ""
+                        "job": "facteur"
                     },
                     {
                         "firstname": "Edmond",
@@ -12838,12 +11272,12 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Haldimann",
-                        "job": ""
+                        "job": "employ\u00e9 de banque"
                     },
                     {
                         "firstname": "Ulrich",
                         "lastname": "Traber",
-                        "job": ""
+                        "job": "droguiste"
                     },
                     {
                         "firstname": "Henri",
@@ -12927,7 +11361,7 @@
                     {
                         "firstname": "William",
                         "lastname": "Grenier-Daiz",
-                        "job": ""
+                        "job": "ing\u00e9nieur-professeur"
                     },
                     {
                         "firstname": "Washington",
@@ -12964,12 +11398,12 @@
                     {
                         "firstname": "Edmond",
                         "lastname": "Grasset-Gilomen",
-                        "job": "commis"
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "Hermann",
                         "lastname": "Johann",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Juste",
@@ -12979,7 +11413,7 @@
                     {
                         "firstname": "Rapha\u00ebl",
                         "lastname": "Maus",
-                        "job": ""
+                        "job": "fa\u00efences"
                     },
                     {
                         "firstname": "Angele",
@@ -13046,7 +11480,7 @@
                     {
                         "firstname": "Sophie",
                         "lastname": "F\u00e9lix-F\u00e9lix",
-                        "job": ""
+                        "job": "masseur"
                     },
                     {
                         "firstname": "Evn",
@@ -13098,7 +11532,7 @@
                     {
                         "firstname": "Joli.-Albert, chef detrain CFF",
                         "lastname": "Ettcr- Barraud",
-                        "job": ""
+                        "job": "chef de train CFF"
                     },
                     {
                         "firstname": "Marie",
@@ -13187,7 +11621,7 @@
                     {
                         "firstname": "Aline",
                         "lastname": "Correvon",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Jeanne",
@@ -13276,7 +11710,7 @@
                     {
                         "firstname": "",
                         "lastname": "Mengolli-Della",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     },
                     {
                         "firstname": "Abram",
@@ -13323,12 +11757,12 @@
                     {
                         "firstname": "Emilie",
                         "lastname": "Bourdilloud",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Antonin",
                         "lastname": "Bourdilloud-Fanquex",
-                        "job": ""
+                        "job": "comptable"
                     },
                     {
                         "firstname": "Paul",
@@ -13358,7 +11792,7 @@
                     {
                         "firstname": "Antoine",
                         "lastname": "Prior-Goy",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Ad",
@@ -13368,7 +11802,7 @@
                     {
                         "firstname": "Marie",
                         "lastname": "Yallon-Bucher",
-                        "job": ""
+                        "job": "garde-malade"
                     },
                     {
                         "firstname": "Emile",
@@ -13410,7 +11844,7 @@
                     {
                         "firstname": "Philippe",
                         "lastname": "Meuwly-Bandollier",
-                        "job": "fonctionnaire"
+                        "job": "commissionnaire"
                     },
                     {
                         "firstname": "Daniel",
@@ -13420,7 +11854,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Morel-Germami",
-                        "job": "m\u00e9canicien"
+                        "job": "technicien"
                     },
                     {
                         "firstname": "Sophie",
@@ -13501,12 +11935,64 @@
             "properties": {
                 "RUE_ABR": "Grancy",
                 "RUE_OFF": "Boulevard de Grancy",
+                "TEXTSTRING": "55",
+                "PEOPLE": [
+                    {
+                        "firstname": "Alo\u00efs",
+                        "lastname": "Bally-Rochat",
+                        "job": "charcutier"
+                    },
+                    {
+                        "firstname": "Henri",
+                        "lastname": "B\u00e9boux-Porchet",
+                        "job": "man\u0153uvre"
+                    },
+                    {
+                        "firstname": "Alfr",
+                        "lastname": "Duvaud-Cassat",
+                        "job": "tapissier"
+                    },
+                    {
+                        "firstname": "Georges",
+                        "lastname": "Lederrey",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Ren\u00e9",
+                        "lastname": "Rochat-Vieland",
+                        "job": "m\u00e9canicien"
+                    },
+                    {
+                        "firstname": "Werner",
+                        "lastname": "Schlatter",
+                        "job": "voyageur"
+                    },
+                    {
+                        "firstname": "Camillo",
+                        "lastname": "Torti",
+                        "job": "ma\u00e7on"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.624767538198588,
+                    46.5165105459071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Grancy",
+                "RUE_OFF": "Boulevard de Grancy",
                 "TEXTSTRING": "56",
                 "PEOPLE": [
                     {
                         "firstname": "R.",
                         "lastname": "Andrey-Rcgamey",
-                        "job": ""
+                        "job": "chauffeur"
                     },
                     {
                         "firstname": "Jules",
@@ -13568,7 +12054,7 @@
                     {
                         "firstname": "\u00c9tienne",
                         "lastname": "Perrinfnquet-Grossen",
-                        "job": ""
+                        "job": "employ\u00e9 de pharmacie"
                     },
                     {
                         "firstname": "Lina",
@@ -13578,7 +12064,7 @@
                     {
                         "firstname": "Fran\u00e7ois",
                         "lastname": "Villarfl-Jorditi\u00ef",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     }
                 ]
             },
@@ -13612,8 +12098,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.627620244243485,
-                    46.515340320008576
+                    6.627607965118585,
+                    46.51532517493751
                 ]
             }
         },
@@ -13802,7 +12288,7 @@
                     {
                         "firstname": "Edouard",
                         "lastname": "Kurth-Furrer",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Jeanne",
@@ -14185,7 +12671,7 @@
                     {
                         "firstname": "Albert",
                         "lastname": "Scliultz",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "H\u00e9l\u00e8ne-Louise",
@@ -14339,7 +12825,7 @@
                     {
                         "firstname": "Georges",
                         "lastname": "Geiger-Savary",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Ch",
@@ -14505,6 +12991,58 @@
             "properties": {
                 "RUE_ABR": "Rond-Point",
                 "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "11",
+                "PEOPLE": [
+                    {
+                        "firstname": "Louis",
+                        "lastname": "Amblas-Trachsel",
+                        "job": "peintre"
+                    },
+                    {
+                        "firstname": "Louise",
+                        "lastname": "Dasen-Beck",
+                        "job": "couturier"
+                    },
+                    {
+                        "firstname": "Madeleine",
+                        "lastname": "Dclisle",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Marius",
+                        "lastname": "Delisle-Humbort-Droz",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Emile-Otto",
+                        "lastname": "Fuchs",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Georges",
+                        "lastname": "Gilli\u00e9ron-Bochatay",
+                        "job": "sommelier"
+                    },
+                    {
+                        "firstname": "Emile",
+                        "lastname": "Qninclet-Vallotton-Masson",
+                        "job": "menuisier"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.627912843483233,
+                    46.51504093037888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
                 "TEXTSTRING": "13",
                 "PEOPLE": [
                     {
@@ -14544,6 +13082,130 @@
                 "coordinates": [
                     6.627745999228674,
                     46.515276292232976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "14",
+                "PEOPLE": [
+                    {
+                        "firstname": "",
+                        "lastname": "Baup. Piguet",
+                        "job": "avocat"
+                    },
+                    {
+                        "firstname": "Fran\u00e7ois",
+                        "lastname": "Dubuis-Mcrmier",
+                        "job": "dentiste"
+                    },
+                    {
+                        "firstname": "Charles",
+                        "lastname": "Haymann-Zwirncrova",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Barbara",
+                        "lastname": "Henggeler - St.irnweiss",
+                        "job": "blanchisseuse"
+                    },
+                    {
+                        "firstname": "Gustave",
+                        "lastname": "Nafilyan",
+                        "job": "industriel"
+                    },
+                    {
+                        "firstname": "Paula",
+                        "lastname": "Pfister",
+                        "job": "modiste"
+                    },
+                    {
+                        "firstname": "Edouard",
+                        "lastname": "Piguet",
+                        "job": "avocat"
+                    },
+                    {
+                        "firstname": "Julia",
+                        "lastname": "Rusillon",
+                        "job": "employ\u00e9"
+                    },
+                    {
+                        "firstname": "Marthe",
+                        "lastname": "Sercx",
+                        "job": "couturier"
+                    },
+                    {
+                        "firstname": "Emile",
+                        "lastname": "Serex-Jaquier",
+                        "job": "jardinier"
+                    },
+                    {
+                        "firstname": "Marguerite",
+                        "lastname": "Trcyvaud",
+                        "job": ""
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.626828562360364,
+                    46.51562878045076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "15",
+                "PEOPLE": [
+                    {
+                        "firstname": "Eug\u00e9nio",
+                        "lastname": "Baratta-Bornoz",
+                        "job": "peintre"
+                    },
+                    {
+                        "firstname": "Alfr",
+                        "lastname": "Deppeler-Lienhard",
+                        "job": "tailleur"
+                    },
+                    {
+                        "firstname": "Lina",
+                        "lastname": "Dufaux-Jayet",
+                        "job": "m\u00e9nag\u00e8re"
+                    },
+                    {
+                        "firstname": "Henriette",
+                        "lastname": "Ecoffey",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Ch",
+                        "lastname": "Engler-Ecoffey",
+                        "job": "commis"
+                    },
+                    {
+                        "firstname": "Fran\u00e7.-Louis, \u00een\u00e9-canic",
+                        "lastname": "Michaud-Despland",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Wilhelm",
+                        "lastname": "Seitz",
+                        "job": ""
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.627728038589151,
+                    46.51506404252631
                 ]
             }
         },
@@ -14619,8 +13281,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.626678273108061,
-                    46.5155849394361
+                    6.626823978907781,
+                    46.51556924468449
                 ]
             }
         },
@@ -14816,11 +13478,6 @@
                         "job": ""
                     },
                     {
-                        "firstname": "Louis",
-                        "lastname": "Christ in-Penseyres",
-                        "job": "menuisier"
-                    },
-                    {
                         "firstname": "Gust",
                         "lastname": "Monnard-Noblet",
                         "job": ""
@@ -14834,11 +13491,6 @@
                         "firstname": "Franz",
                         "lastname": "Springmann",
                         "job": "blanchisseuse"
-                    },
-                    {
-                        "firstname": "Bertlia",
-                        "lastname": "Thonney-Isabel",
-                        "job": "couturier"
                     }
                 ]
             },
@@ -14887,7 +13539,7 @@
                     {
                         "firstname": "Marie",
                         "lastname": "B\u00e6hler",
-                        "job": ""
+                        "job": "employ\u00e9"
                     },
                     {
                         "firstname": "Marie-Ad\u00e8le",
@@ -14907,12 +13559,12 @@
                     {
                         "firstname": "Henri-Charles",
                         "lastname": "Bolomey",
-                        "job": ""
+                        "job": "employ\u00e9 du gaz"
                     },
                     {
                         "firstname": "Robert",
                         "lastname": "Bolomey",
-                        "job": ""
+                        "job": "employ\u00e9 du gaz"
                     },
                     {
                         "firstname": "Marie",
@@ -14922,7 +13574,7 @@
                     {
                         "firstname": "Antonio",
                         "lastname": "Dalcomune-Cagnolati",
-                        "job": ""
+                        "job": "professeur"
                     },
                     {
                         "firstname": "Blanche",
@@ -14932,7 +13584,7 @@
                     {
                         "firstname": "Blanche",
                         "lastname": "Engster",
-                        "job": ""
+                        "job": "repr\u00e9sentant"
                     },
                     {
                         "firstname": "Anna",
@@ -14947,7 +13599,7 @@
                     {
                         "firstname": "Joseph",
                         "lastname": "Fichard-Bnrri",
-                        "job": "bijoutier"
+                        "job": "briquetier"
                     },
                     {
                         "firstname": "Berthe",
@@ -14977,7 +13629,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Grandjean-Fantotti",
-                        "job": "employ\u00e9"
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Eustasie",
@@ -15012,7 +13664,7 @@
                     {
                         "firstname": "Edouard",
                         "lastname": "Margot-Jaccard",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Jacob",
@@ -15032,12 +13684,12 @@
                     {
                         "firstname": "Robert",
                         "lastname": "Rausis-Eugster",
-                        "job": ""
+                        "job": "employ\u00e9 du gaz"
                     },
                     {
                         "firstname": "Ch",
                         "lastname": "Regamey-Saldarini",
-                        "job": ""
+                        "job": "employ\u00e9 CFF"
                     },
                     {
                         "firstname": "Charles",
@@ -15094,7 +13746,7 @@
                     {
                         "firstname": "Marguerite",
                         "lastname": "Bczcn\u00e7on",
-                        "job": ""
+                        "job": "femme de chambre"
                     },
                     {
                         "firstname": "Marcel",
@@ -15104,7 +13756,7 @@
                     {
                         "firstname": "Arnold",
                         "lastname": "Burgi-Ottilini",
-                        "job": ""
+                        "job": "directeur"
                     },
                     {
                         "firstname": "Georges-B.,repr\u00e9s",
@@ -15114,7 +13766,7 @@
                     {
                         "firstname": "Aim\u00e9",
                         "lastname": "Fivaz-B\u00e9clierraz",
-                        "job": "pianiste"
+                        "job": "pierriste"
                     },
                     {
                         "firstname": "Jean",
@@ -15196,7 +13848,7 @@
                     {
                         "firstname": "Violette",
                         "lastname": "Discrens",
-                        "job": ""
+                        "job": "professeur de dessin"
                     },
                     {
                         "firstname": "Jaques",
@@ -15216,7 +13868,7 @@
                     {
                         "firstname": "Fernand",
                         "lastname": "Jaccottet-Dufau",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Gabriel",
@@ -15231,7 +13883,7 @@
                     {
                         "firstname": "Marcel",
                         "lastname": "Martin",
-                        "job": "fonctionnaire"
+                        "job": "commissionnaire"
                     },
                     {
                         "firstname": "Jules",
@@ -15251,7 +13903,7 @@
                     {
                         "firstname": "",
                         "lastname": "Th omas-,Kenzler Louis,",
-                        "job": "chimiste"
+                        "job": "machiniste"
                     },
                     {
                         "firstname": "Otto",
@@ -15278,7 +13930,7 @@
                     {
                         "firstname": "Alois",
                         "lastname": "Blanc",
-                        "job": "coutelier"
+                        "job": "bouclier"
                     },
                     {
                         "firstname": "Gustave",
@@ -15315,7 +13967,7 @@
                     {
                         "firstname": "Gust.-Alf., voyageur,av. de",
                         "lastname": "Bobillier-Moser",
-                        "job": ""
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Paul",
@@ -15330,7 +13982,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "H\u00e2mmcrli",
-                        "job": "conducteur CFF"
+                        "job": "commis CFF"
                     },
                     {
                         "firstname": "Edouard",
@@ -15350,7 +14002,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Muller-Hasler",
-                        "job": "\u00e9diteur"
+                        "job": "dessinateur"
                     },
                     {
                         "firstname": "Lina",
@@ -15360,7 +14012,7 @@
                     {
                         "firstname": "Sophie",
                         "lastname": "Raith-Berger",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Henri",
@@ -15375,17 +14027,17 @@
                     {
                         "firstname": "Antoine",
                         "lastname": "Schilter-Filliettaz",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Louise",
                         "lastname": "Tschopp-Sinionatti",
-                        "job": ""
+                        "job": "femme de chambre"
                     },
                     {
                         "firstname": "Robert",
                         "lastname": "Widmcr-Vautravers",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     }
                 ]
             },
@@ -15474,7 +14126,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Pcrrottet-Wolf",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Joseph",
@@ -15509,7 +14161,7 @@
                     {
                         "firstname": "Joseph",
                         "lastname": "Zgraggen-Sussonth&ler",
-                        "job": ""
+                        "job": "employ\u00e9 CFF"
                     }
                 ]
             },
@@ -15531,7 +14183,7 @@
                     {
                         "firstname": "Samuel",
                         "lastname": "Aubert-B\u00e4hler",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Albert",
@@ -15648,7 +14300,7 @@
                     {
                         "firstname": "Richard",
                         "lastname": "Bcsse-Langer",
-                        "job": "agriculteur"
+                        "job": "sculpteur"
                     },
                     {
                         "firstname": "Jules",
@@ -15715,7 +14367,7 @@
                     {
                         "firstname": "",
                         "lastname": "Bron-Cliambaz",
-                        "job": ""
+                        "job": "couturier"
                     },
                     {
                         "firstname": "Marguerite-Est",
@@ -15735,7 +14387,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Fasnacht-Bergamin",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Bertha",
@@ -15745,12 +14397,12 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Jo\u00ebl",
-                        "job": ""
+                        "job": "magasinier"
                     },
                     {
                         "firstname": "Bertha",
                         "lastname": "Kopf",
-                        "job": ""
+                        "job": "garde-malade"
                     },
                     {
                         "firstname": "Fritz",
@@ -15760,7 +14412,7 @@
                     {
                         "firstname": "Georges",
                         "lastname": "Noeth-Kohm",
-                        "job": "assureur"
+                        "job": "brasseur"
                     },
                     {
                         "firstname": "Arnold",
@@ -15812,17 +14464,17 @@
                     {
                         "firstname": "Ls-Alphonse",
                         "lastname": "B\u00e9guin-Chardon",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "",
                         "lastname": "Blanc-K\u00fcnig Constant,",
-                        "job": ""
+                        "job": "directeur"
                     },
                     {
                         "firstname": "Julien",
                         "lastname": "Dupont-Gaberell",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "R\u00e9gina",
@@ -15904,12 +14556,12 @@
                     {
                         "firstname": "",
                         "lastname": "Blauc-Bolomey",
-                        "job": "tailleur"
+                        "job": "appareilleur"
                     },
                     {
                         "firstname": "Jules-Louis",
                         "lastname": "Borel-Semoroz",
-                        "job": "fonctionnaire"
+                        "job": "facteur"
                     },
                     {
                         "firstname": "Lily",
@@ -15924,7 +14576,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Chatelan-Delisle",
-                        "job": ""
+                        "job": "inspecteur des b\u00e2timents"
                     },
                     {
                         "firstname": "Francesco",
@@ -16118,7 +14770,7 @@
                     {
                         "firstname": "J",
                         "lastname": "Rochat",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Charles",
@@ -16175,7 +14827,7 @@
                     {
                         "firstname": "Maurice",
                         "lastname": "Giriens-B\u00e9boux",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Augusta",
@@ -16361,7 +15013,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Rolircr",
-                        "job": "secr\u00e9taire CFF"
+                        "job": "\u00e9lectricien CFF"
                     },
                     {
                         "firstname": "Charles",
@@ -16408,7 +15060,7 @@
                     {
                         "firstname": "Louis",
                         "lastname": "Matthey-Bonard",
-                        "job": ""
+                        "job": "employ\u00e9 CFF"
                     },
                     {
                         "firstname": "Emile",
@@ -16460,7 +15112,7 @@
                     {
                         "firstname": "Aline",
                         "lastname": "Mcntlionnex",
-                        "job": "ouvrier"
+                        "job": "gouvernante"
                     },
                     {
                         "firstname": "Elisa",
@@ -16606,7 +15258,7 @@
                     {
                         "firstname": "Ernest",
                         "lastname": "Mull-Widmann",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "H\u00e9l\u00e8ne",
@@ -16658,7 +15310,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "D\u00e9combaz-Wannaz",
-                        "job": "portier CFF"
+                        "job": "ouvrier CFF"
                     },
                     {
                         "firstname": "Eug\u00e8ne",
@@ -16715,7 +15367,7 @@
                     {
                         "firstname": "Ami",
                         "lastname": "Borgeaud-Meylan",
-                        "job": "couvreur"
+                        "job": "contr\u00f4leur"
                     },
                     {
                         "firstname": "Albert",
@@ -16765,7 +15417,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Vaudroz-Tachet",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Justin-Emile",
@@ -16829,7 +15481,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Dupuis-Mayor",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Aim\u00e9",
@@ -16888,7 +15540,7 @@
                     {
                         "firstname": "Marguerite",
                         "lastname": "Brogli",
-                        "job": "relieur"
+                        "job": "plieur"
                     },
                     {
                         "firstname": "Fr\u00e9d\u00e9ric",
@@ -16898,7 +15550,7 @@
                     {
                         "firstname": "Marguerite",
                         "lastname": "Pahnd",
-                        "job": "relieur"
+                        "job": "plieur"
                     },
                     {
                         "firstname": "Jeanne",
@@ -17179,7 +15831,7 @@
                     {
                         "firstname": "Charles",
                         "lastname": "Kurtz-Siegenthaler",
-                        "job": "rentier"
+                        "job": "charpentier"
                     },
                     {
                         "firstname": "Louis",
@@ -17372,12 +16024,12 @@
                     {
                         "firstname": "Alfred",
                         "lastname": "Cheseaux-Saucy",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Bern",
                         "lastname": "Courvolsier-Monterloss",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Anna",
@@ -17601,7 +16253,7 @@
                     {
                         "firstname": "Paul",
                         "lastname": "Nicoud-Heumader",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Emile",
@@ -17665,7 +16317,7 @@
                     {
                         "firstname": "Charles-L\u00e9on",
                         "lastname": "Bornand-Jaceard",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Louis",
@@ -17946,7 +16598,7 @@
                     {
                         "firstname": "Eug\u00e8ne",
                         "lastname": "Berger-Balsigcr",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Jean",
@@ -18157,7 +16809,7 @@
                     {
                         "firstname": "John",
                         "lastname": "Pahud-Bahon",
-                        "job": ""
+                        "job": "\u00e9lectricien"
                     }
                 ]
             },
@@ -18179,12 +16831,12 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Barbey-Muskcr",
-                        "job": ""
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "",
                         "lastname": "Blanc-J acot-Descoinbes",
-                        "job": ""
+                        "job": "g\u00e9om\u00e8tre"
                     },
                     {
                         "firstname": "Auguste",
@@ -18219,7 +16871,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Rochat-Rebillet",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Pierre",
@@ -18256,7 +16908,7 @@
                     {
                         "firstname": "",
                         "lastname": "Cavin-Ory",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Blanche",
@@ -18281,12 +16933,12 @@
                     {
                         "firstname": "Nicolas",
                         "lastname": "Pasquier-Cormiubrouf",
-                        "job": ""
+                        "job": "entrepreneur"
                     },
                     {
                         "firstname": "Maric-L.-S.",
                         "lastname": "Pointct",
-                        "job": ""
+                        "job": "d. de mag"
                     },
                     {
                         "firstname": "Friedr",
@@ -18333,7 +16985,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Buffat-Pache",
-                        "job": ""
+                        "job": "employ\u00e9 postal"
                     },
                     {
                         "firstname": "Robert",
@@ -18412,7 +17064,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Cordin-Zlnrjen",
-                        "job": ""
+                        "job": "conducteur"
                     },
                     {
                         "firstname": "David",
@@ -18459,7 +17111,7 @@
                     {
                         "firstname": "Fritz",
                         "lastname": "Witschi",
-                        "job": "secr\u00e9taire CFF"
+                        "job": "inspecteur CFF"
                     },
                     {
                         "firstname": "AValter",
@@ -18551,7 +17203,7 @@
                     {
                         "firstname": "Eug\u00e8ne",
                         "lastname": "Vuillerat-Cavin",
-                        "job": "ramoneur"
+                        "job": "monteur"
                     }
                 ]
             },
@@ -18722,247 +17374,6 @@
         {
             "type": "Feature",
             "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "0",
-                "PEOPLE": [
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Besson-Auroi",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Chaillet",
-                        "job": "instituteur"
-                    },
-                    {
-                        "firstname": "Emest",
-                        "lastname": "Parisod-Zuchuat",
-                        "job": "laitier"
-                    },
-                    {
-                        "firstname": "Louise",
-                        "lastname": "Ramuz-Davel",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Elisabeth",
-                        "lastname": "Schmidt-Rccher",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Julia",
-                        "lastname": "Wellauer-Henny",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617101073562106,
-                    46.51834314046026
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "1",
-                "PEOPLE": [
-                    {
-                        "firstname": "Philippe",
-                        "lastname": "Couchepin",
-                        "job": "\u00e9tudiant"
-                    },
-                    {
-                        "firstname": "Elisa",
-                        "lastname": "Guillaume",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617383998579922,
-                    46.51815468175243
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "2",
-                "PEOPLE": [
-                    {
-                        "firstname": "C\u00e9cile",
-                        "lastname": "Stouky",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Charles",
-                        "lastname": "Stouky-Bergier",
-                        "job": "banquier"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617630243292403,
-                    46.518338536155255
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "3",
-                "PEOPLE": [
-                    {
-                        "firstname": "Fern",
-                        "lastname": "Demicville-Favrod-Coune",
-                        "job": "g\u00e9rant"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617140560975179,
-                    46.51821499215886
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "4",
-                "PEOPLE": [
-                    {
-                        "firstname": "Jaques",
-                        "lastname": "Bridel",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Victor-Jules",
-                        "lastname": "Bridel",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Michel",
-                        "lastname": "liridel-Schnetzlcr",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Edouard",
-                        "lastname": "Gonln-Trog",
-                        "job": "imprimeur"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617451697204544,
-                    46.518390689604125
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "6",
-                "PEOPLE": [
-                    {
-                        "firstname": "Georges",
-                        "lastname": "Gerber",
-                        "job": "banquier"
-                    },
-                    {
-                        "firstname": "Siegfried",
-                        "lastname": "lvully",
-                        "job": "commis"
-                    },
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Perey",
-                        "job": ""
-                    },
-                    {
-                        "firstname": "Robert",
-                        "lastname": "Schmidt-Mortz",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.617079308966249,
-                    46.51846383936604
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Belle-Source",
-                "RUE_OFF": "Chemin de Belle-Source",
-                "TEXTSTRING": "7",
-                "PEOPLE": [
-                    {
-                        "firstname": "Alice",
-                        "lastname": "Torny",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.616561488850611,
-                    46.51835672286945
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Mouettes",
-                "RUE_OFF": "Chemin des Mouettes",
-                "TEXTSTRING": "4",
-                "PEOPLE": [
-                    {
-                        "firstname": "",
-                        "lastname": "Rouge-Duvoisin",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.624522766921189,
-                    46.51046662947955
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "RUE_ABR": "Fraisse",
                 "RUE_OFF": "Avenue William-Fraisse",
                 "TEXTSTRING": "4",
@@ -18975,7 +17386,7 @@
                     {
                         "firstname": "Edouard",
                         "lastname": "Chevalley-Puel",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Henri",
@@ -19010,7 +17421,7 @@
                     {
                         "firstname": "Charles-W.",
                         "lastname": "Krausc-Rapin",
-                        "job": "voyagiste"
+                        "job": "voyageur"
                     },
                     {
                         "firstname": "Auguste",
@@ -19316,7 +17727,7 @@
                     {
                         "firstname": "Jules",
                         "lastname": "Wlnandy-Meyer",
-                        "job": ""
+                        "job": "employ\u00e9 du gaz"
                     }
                 ]
             },
@@ -20066,7 +18477,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "Giriens",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Louise",
@@ -20135,7 +18546,7 @@
                     {
                         "firstname": "Robert",
                         "lastname": "Bettens-Thiebaud",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "H\u00e9l\u00e8ne",
@@ -20155,7 +18566,7 @@
                     {
                         "firstname": "Emile",
                         "lastname": "Golay-Jaccoud",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Jeanne",
@@ -20165,7 +18576,7 @@
                     {
                         "firstname": "Henri",
                         "lastname": "L\u00e9geret-Rossy",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     },
                     {
                         "firstname": "Henri",
@@ -20274,12 +18685,12 @@
                     {
                         "firstname": "Pietro",
                         "lastname": "Balcet",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     },
                     {
                         "firstname": "Maria-Lina",
                         "lastname": "Balcct-Mani",
-                        "job": "imprimeur"
+                        "job": "primeurs"
                     },
                     {
                         "firstname": "Cl\u00e9mentine",
@@ -20319,7 +18730,7 @@
                     {
                         "firstname": "Marins",
                         "lastname": "Welss-Imhof",
-                        "job": "compositeur"
+                        "job": "commis postal"
                     }
                 ]
             },
@@ -20409,11 +18820,6 @@
                         "firstname": "Jeanne",
                         "lastname": "Wcnger",
                         "job": ""
-                    },
-                    {
-                        "firstname": "Marguerite",
-                        "lastname": "Zimmer",
-                        "job": ""
                     }
                 ]
             },
@@ -20466,28 +18872,6 @@
                 "coordinates": [
                     6.628931743546732,
                     46.51357444616313
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "D\u00e9lices",
-                "RUE_OFF": "Chemin des D\u00e9lices",
-                "TEXTSTRING": "0",
-                "PEOPLE": [
-                    {
-                        "firstname": "Marie",
-                        "lastname": "Mercanton - Lavanchy",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.6287778569930165,
-                    46.51351823523974
                 ]
             }
         },
@@ -20733,50 +19117,6 @@
         {
             "type": "Feature",
             "properties": {
-                "RUE_ABR": "Joliette",
-                "RUE_OFF": "Chemin de la Joliette",
-                "TEXTSTRING": "0",
-                "PEOPLE": [
-                    {
-                        "firstname": "Alfred",
-                        "lastname": "Galland-Rcnevier",
-                        "job": ""
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.6287770632697605,
-                    46.51238559397227
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "RUE_ABR": "Joliette",
-                "RUE_OFF": "Chemin de la Joliette",
-                "TEXTSTRING": "1",
-                "PEOPLE": [
-                    {
-                        "firstname": "Joseph",
-                        "lastname": "Schg\u00f6r-Wiederkehr",
-                        "job": "bijoutier"
-                    }
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.62904479622499,
-                    46.512631800885416
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "RUE_ABR": "Montriond",
                 "RUE_OFF": "Passage de Montriond",
                 "TEXTSTRING": "0",
@@ -20829,7 +19169,7 @@
                     {
                         "firstname": "Berthe",
                         "lastname": "Weber",
-                        "job": ""
+                        "job": "d. de mag"
                     }
                 ]
             },

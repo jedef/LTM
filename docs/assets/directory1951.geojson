@@ -1,6 +1,6 @@
 {
     "type": "FeatureCollection",
-    "name": "adresses2",
+    "name": "addresses_final",
     "crs": {
         "type": "name",
         "properties": {
@@ -127,8 +127,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.62993792403025,
-                    46.5091153386073
+                    6.629930205474029,
+                    46.50908789394
                 ]
             }
         },
@@ -320,6 +320,11 @@
                         "job": ""
                     },
                     {
+                        "firstname": "Ruth",
+                        "lastname": "Habl&tze",
+                        "job": ""
+                    },
+                    {
                         "firstname": "Sophie",
                         "lastname": "Hausammann",
                         "job": "secr\u00e9taire"
@@ -419,7 +424,7 @@
                     {
                         "firstname": "Emmanuel",
                         "lastname": "FranciUon-Schul\u00e9",
-                        "job": ""
+                        "job": "rentier"
                     },
                     {
                         "firstname": "Paul",
@@ -498,8 +503,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.630163826769436,
-                    46.50842488284426
+                    6.63003261131369,
+                    46.50795832350006
                 ]
             }
         },
@@ -902,6 +907,28 @@
                 "coordinates": [
                     6.618957418258749,
                     46.51551525946629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Bruy\u00e8res",
+                "RUE_OFF": "Chemin des Bruy\u00e8res",
+                "TEXTSTRING": "14",
+                "PEOPLE": [
+                    {
+                        "firstname": "Marcel",
+                        "lastname": "Guex-Meyer",
+                        "job": "employ\u00e9 postal"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.619212715931362,
+                    46.51597403271493
                 ]
             }
         },
@@ -20247,11 +20274,6 @@
                         "job": "cuisinier"
                     },
                     {
-                        "firstname": "Eug\u00e8ne",
-                        "lastname": "B\u00e4hni-Pellet",
-                        "job": "tabagiste"
-                    },
-                    {
                         "firstname": "Georges",
                         "lastname": "Berthoud-Pittet",
                         "job": "p\u00e2tissier"
@@ -20583,11 +20605,6 @@
                         "job": ""
                     },
                     {
-                        "firstname": "Fran\u00e7.-Eug\u00e8ne",
-                        "lastname": "Bessat-Ziegler",
-                        "job": ""
-                    },
-                    {
                         "firstname": "Heinz",
                         "lastname": "Bohner",
                         "job": "commer\u00e7ant"
@@ -20881,11 +20898,6 @@
                 "RUE_OFF": "Avenue de Mon-Loisir",
                 "TEXTSTRING": "11",
                 "PEOPLE": [
-                    {
-                        "firstname": "Louise",
-                        "lastname": "Bettems-Addor",
-                        "job": ""
-                    },
                     {
                         "firstname": "Gaston",
                         "lastname": "Bory-Mayor",
@@ -21229,11 +21241,6 @@
                 "RUE_OFF": "Avenue de Mon-Loisir",
                 "TEXTSTRING": "15",
                 "PEOPLE": [
-                    {
-                        "firstname": "R\u00e9my",
-                        "lastname": "Bettems",
-                        "job": ""
-                    },
                     {
                         "firstname": "Juliane",
                         "lastname": "Dubuis",
@@ -23273,6 +23280,38 @@
             "properties": {
                 "RUE_ABR": "Grancy",
                 "RUE_OFF": "Boulevard de Grancy",
+                "TEXTSTRING": "55",
+                "PEOPLE": [
+                    {
+                        "firstname": "Marie-Louise",
+                        "lastname": "Besson-Ethenoz",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Fanny",
+                        "lastname": "K\u00e4mpf-Stucker",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Hermann",
+                        "lastname": "Kroger",
+                        "job": "repr\u00e9sentant"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.624767538198588,
+                    46.5165105459071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Grancy",
+                "RUE_OFF": "Boulevard de Grancy",
                 "TEXTSTRING": "56",
                 "PEOPLE": [
                     {
@@ -23429,8 +23468,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.627620244243485,
-                    46.515340320008576
+                    6.627607965118585,
+                    46.51532517493751
                 ]
             }
         },
@@ -24320,6 +24359,73 @@
             "properties": {
                 "RUE_ABR": "Rond-Point",
                 "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "11",
+                "PEOPLE": [
+                    {
+                        "firstname": "Benjamin",
+                        "lastname": "Ayer-Maillard",
+                        "job": "employ\u00e9 de commerce"
+                    },
+                    {
+                        "firstname": "Mario",
+                        "lastname": "Bugada",
+                        "job": "m\u00e9canicien"
+                    },
+                    {
+                        "firstname": "Jeanne",
+                        "lastname": "Delessert",
+                        "job": "couturier"
+                    },
+                    {
+                        "firstname": "Robert",
+                        "lastname": "Despont-Pittet",
+                        "job": "ramoneur"
+                    },
+                    {
+                        "firstname": "",
+                        "lastname": "",
+                        "job": "ramoneur"
+                    },
+                    {
+                        "firstname": "Alice",
+                        "lastname": "Fressinean",
+                        "job": "sommelier"
+                    },
+                    {
+                        "firstname": "Georges",
+                        "lastname": "Jean-Mairet",
+                        "job": "chauffeur"
+                    },
+                    {
+                        "firstname": "Georges",
+                        "lastname": "Moret",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Ida",
+                        "lastname": "Rochat",
+                        "job": "rentier"
+                    },
+                    {
+                        "firstname": "Olga",
+                        "lastname": "Stanb",
+                        "job": "couturier"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.627912843483233,
+                    46.51504093037888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
                 "TEXTSTRING": "13",
                 "PEOPLE": [
                     {
@@ -24344,6 +24450,80 @@
                 "coordinates": [
                     6.627745999228674,
                     46.515276292232976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "14",
+                "PEOPLE": [
+                    {
+                        "firstname": "Willy",
+                        "lastname": "Lustig-Nenwerth",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "M\u00e9lanie",
+                        "lastname": "Schwarzenbach",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Raymonde",
+                        "lastname": "Spozio-Martin",
+                        "job": ""
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.626828562360364,
+                    46.51562878045076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "RUE_ABR": "Rond-Point",
+                "RUE_OFF": "Avenue du Rond-Point",
+                "TEXTSTRING": "15",
+                "PEOPLE": [
+                    {
+                        "firstname": "Georges",
+                        "lastname": "Albiez",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Joseph",
+                        "lastname": "Albin-Michaud",
+                        "job": "concierge"
+                    },
+                    {
+                        "firstname": "Dom",
+                        "lastname": "Bianciotto-Luchino",
+                        "job": "ma\u00e7on"
+                    },
+                    {
+                        "firstname": "Marie",
+                        "lastname": "Vienne! Esther,",
+                        "job": ""
+                    },
+                    {
+                        "firstname": "Berthe",
+                        "lastname": "Vionnet-Ruffy",
+                        "job": ""
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.627728038589151,
+                    46.51506404252631
                 ]
             }
         },
@@ -24384,8 +24564,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.626678273108061,
-                    46.5155849394361
+                    6.626823978907781,
+                    46.51556924468449
                 ]
             }
         },
@@ -37365,7 +37545,7 @@
                     {
                         "firstname": "Fernand",
                         "lastname": "Capt-Mayor",
-                        "job": ""
+                        "job": "g\u00e9om\u00e8tre"
                     },
                     {
                         "firstname": "Marie",
