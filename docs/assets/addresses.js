@@ -67,8 +67,6 @@ class Directory {
     }
 
     constructor(directory, features, people) {
-        console.log(directory)
-        console.log(features)
         if(features === undefined) return this.construct_from_geojson(directory) //overloaded constructor
         this.features = features
         this.geojson_headers = directory.geojson_headers
@@ -87,7 +85,6 @@ class Directory {
 
     generateJobsArray() {
         const jobs = new Set()
-        console.log(this.people)
         for(const person of this.people) {
             jobs.add(person.job)
         }
@@ -109,9 +106,6 @@ class Directory {
                 filtered_people.push(person)
             }
         }
-        console.log("Filtered jobs!")
-        console.log(filtered_features)
-        console.log(filtered_people)
         return new Directory(this, Array.from(filtered_features), filtered_people)
     }
 
@@ -132,13 +126,8 @@ class Directory {
 
     filterByAddress(address) {
         if(address===allEntriesLabel) return this
-        console.log(address)
-        console.log(globalThis.allEntriesLabel)
         const filtered_features = this.features.filter(feature => feature.getAddress() === address)
         const filtered_people = this.people.filter(person => person.feature.getAddress() === address)
-        console.log("Filtered addresses!")
-        console.log(filtered_features)
-        console.log(filtered_people)
         return new Directory(this, filtered_features, filtered_people)
     }
 

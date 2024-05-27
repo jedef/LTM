@@ -119,7 +119,6 @@ class Map {
                         maxWidth: 600,
                     });
                     layer.on('popupopen', function(event) {
-                        console.log(feature.getPeople())
                         new gridjs.Grid({
                             columns: ["Nom", "Prénom", "Métier"],
                             data: feature.getPeople().map(person => [person.lastname, person.firstname, person.job]),
@@ -145,7 +144,6 @@ class Map {
                 max: Math.max(5, people.length/15)
             });
         if(this.heatLayerDisplayed) this.heatLayer.addTo(this.map)
-        //console.log(people.map(person => [person.lastname, person.firstname, person.job, person.feature.getAddress()]))
         this.directoryTable.updateConfig({
             data: people.map(person => [person.lastname, person.firstname, person.job, person.feature.getFullAddress(), person.feature.getLeafletCoord()])
         }).forceRender()
