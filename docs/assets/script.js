@@ -45,6 +45,7 @@ class App {
   constructor() {
     this.year = data_year.Y1923
     this.displayed_layers = layers.CITYMAP
+    globalThis.setConfig = this.setConfig.bind(this)
   }
 
   #year
@@ -54,6 +55,7 @@ class App {
   set year(y) {
     if(y===this.#year) return
     this.#year = y
+    data_year_radiobutton['Y'+y].checked = true;
     switch(this.year) {
       case data_year.Y1923:
         this.backgroundLayers[layers.TOPOGRAPHIC] = [this.map.layers[1926]]
@@ -84,6 +86,7 @@ class App {
   }
 
   set displayHeatmap(display) {
+    heatlayer_checkbox.checked=display
     this.map.displayHeatLayer(display)
   }
 
@@ -91,6 +94,7 @@ class App {
   set addressFilter(filter) {
     if(filter===this.#addressFilter) return
     this.#addressFilter=filter
+    addressDropdown.value=filter
     this.updateJsonLayer()
   }
 
@@ -98,7 +102,7 @@ class App {
   set jobCategoryFilter(filter) {
     if(filter===this.#jobCategoryFilter) return
     this.#jobCategoryFilter = filter
-    console.log(this.directory.getJobsOfCategory(this.#jobCategoryFilter))
+    jobCategoryDropdown.value=filter
     if (populateDropdown(jobsDropdown, this.directory.getJobsOfCategory(this.#jobCategoryFilter))) this.#jobsFilter=jobsDropdown.value;
     this.jobCategoryFilteredDirectory = this.addressFilteredDirectory.filterByJobCategory(filter)
     this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(this.#jobsFilter)
@@ -110,6 +114,7 @@ class App {
   set jobsFilter(filter) {
     if(filter===this.#jobsFilter) return
     this.#jobsFilter = filter
+    jobsDropdown.value=filter
     this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(filter)
     this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
   }
@@ -118,8 +123,25 @@ class App {
     this.addressFilteredDirectory = this.directory.filterByAddress(this.#addressFilter)
     this.jobCategoryFilteredDirectory = this.addressFilteredDirectory.filterByJobCategory(this.#jobCategoryFilter)
     this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(this.#jobsFilter)
-    console.log(this.jobsFilteredDirectory.geojson)
     this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
+  }
+
+  setConfig(config) {
+    config = {
+      year: data_year.Y1923,
+      displayHeatmap: true,
+      addressFilter: allEntriesLabel,
+      jobCategoryFilter: allEntriesLabel,
+      jobsFilter: allEntriesLabel,
+      displayed_layers: layers.CITYMAP,
+      ...config
+    }
+    Object.keys(config).forEach((key) => {
+      this[key] = config[key];
+    })
+    this.map.map.setView(this.map.center, 23)
+
+    document.getElementById('map_section').scrollIntoView({ behavior: 'smooth' });
   }
 
 }
