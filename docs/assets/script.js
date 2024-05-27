@@ -30,6 +30,7 @@ const layers_radiobutton = {
 
 const heatlayer_checkbox = document.getElementById("heatlayer_checkbox")
 
+const jobCategoryDropdown = document.getElementById("jobCategoryDropdown")
 const jobsDropdown = document.getElementById("jobsDropdown")
 const addressDropdown = document.getElementById("addressDropdown")
 
@@ -69,8 +70,9 @@ class App {
         data_year_radiobutton.Y1951.checked=true
         break
     }
-    if (populateDropdown(jobsDropdown, this.directory.jobs)) this.jobsFilter=jobsDropdown.value;
-    if (populateDropdown(addressDropdown, this.directory.addresses)) this.addressFilter = addressDropdown.value;
+    if (populateDropdown(jobCategoryDropdown, this.directory.getJobCategories())) this.#jobCategoryFilter = jobCategoryDropdown.value;
+    if (populateDropdown(jobsDropdown, this.directory.getJobsOfCategory(this.#jobCategoryFilter))) this.#jobsFilter=jobsDropdown.value;
+    if (populateDropdown(addressDropdown, this.directory.addresses)) this.#addressFilter = addressDropdown.value;
     if([layers.TOPOGRAPHIC, layers.BOTH].includes(this.#displayed_layers)) this.map.setBackgroundLayers(this.backgroundLayers[this.#displayed_layers])
     this.updateJsonLayer()
   }
@@ -92,17 +94,30 @@ class App {
     this.updateJsonLayer()
   }
 
+  #jobCategoryFilter = allEntriesLabel
+  set jobCategoryFilter(filter) {
+    if(filter===this.#jobCategoryFilter) return
+    this.#jobCategoryFilter = filter
+    console.log(this.directory.getJobsOfCategory(this.#jobCategoryFilter))
+    if (populateDropdown(jobsDropdown, this.directory.getJobsOfCategory(this.#jobCategoryFilter))) this.#jobsFilter=jobsDropdown.value;
+    this.jobCategoryFilteredDirectory = this.addressFilteredDirectory.filterByJobCategory(filter)
+    this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(this.#jobsFilter)
+    this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
+  }
+
+
   #jobsFilter = allEntriesLabel
   set jobsFilter(filter) {
     if(filter===this.#jobsFilter) return
     this.#jobsFilter = filter
-    this.jobsFilteredDirectory = this.addressFilteredDirectory.filterByJob(filter)
+    this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(filter)
     this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
   }
 
   updateJsonLayer() {
     this.addressFilteredDirectory = this.directory.filterByAddress(this.#addressFilter)
-    this.jobsFilteredDirectory = this.addressFilteredDirectory.filterByJob(this.#jobsFilter)
+    this.jobCategoryFilteredDirectory = this.addressFilteredDirectory.filterByJobCategory(this.#jobCategoryFilter)
+    this.jobsFilteredDirectory = this.jobCategoryFilteredDirectory.filterByJob(this.#jobsFilter)
     console.log(this.jobsFilteredDirectory.geojson)
     this.map.setJsonLayer(this.jobsFilteredDirectory.geojson, this.jobsFilteredDirectory.people)
   }
@@ -129,6 +144,9 @@ layers_radiobutton.BOTH.addEventListener('change', function() {
 heatlayer_checkbox.addEventListener('change', function() {
   app.displayHeatmap=heatlayer_checkbox.checked
 })
+jobCategoryDropdown.addEventListener("change", function (event) {
+  app.jobCategoryFilter = event.target.value
+});
 jobsDropdown.addEventListener("change", function (event) {
   app.jobsFilter = event.target.value
 });

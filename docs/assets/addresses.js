@@ -1,4 +1,4 @@
-
+import macro_classes from './macro-classes.json' with { type: 'json' };
 const allEntriesLabel="<tous>"
 
 class Feature {
@@ -92,6 +92,15 @@ class Directory {
         return Array.from(jobs)
     }
 
+    getJobCategories() {
+        return Object.keys(macro_classes)
+    }
+
+    getJobsOfCategory(category) {
+        if(category===allEntriesLabel) return this.jobs
+        return macro_classes[category].filter((job) => this.jobs.includes(job))
+    }
+
     filterByJob(job) {
         if(job===allEntriesLabel) return this
         const filtered_features = new Set()
@@ -105,6 +114,21 @@ class Directory {
         console.log("Filtered jobs!")
         console.log(filtered_features)
         console.log(filtered_people)
+        return new Directory(this, Array.from(filtered_features), filtered_people)
+    }
+
+    filterByJobCategory(category) {
+        if(category===allEntriesLabel) return this
+        const filtered_features = new Set()
+        const filtered_people = []
+        category = this.getJobsOfCategory(category)
+
+        for(const person of this.people) {
+            if (category.includes(person.job)) {
+                filtered_features.add(person.feature)
+                filtered_people.push(person)
+            }
+        }
         return new Directory(this, Array.from(filtered_features), filtered_people)
     }
 
