@@ -70,7 +70,7 @@ class App {
         data_year_radiobutton.Y1951.checked=true
         break
     }
-    if (populateDropdown(jobCategoryDropdown, this.directory.getJobCategories())) this.#jobCategoryFilter = jobCategoryDropdown.value;
+    if (populateDropdown(jobCategoryDropdown, this.directory.jobCategories)) this.#jobCategoryFilter = jobCategoryDropdown.value;
     if (populateDropdown(jobsDropdown, this.directory.getJobsOfCategory(this.#jobCategoryFilter))) this.#jobsFilter=jobsDropdown.value;
     if (populateDropdown(addressDropdown, this.directory.addresses)) this.#addressFilter = addressDropdown.value;
     if([layers.TOPOGRAPHIC, layers.BOTH].includes(this.#displayed_layers)) this.map.setBackgroundLayers(this.backgroundLayers[this.#displayed_layers])

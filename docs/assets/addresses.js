@@ -61,7 +61,9 @@ class Directory {
         //this.geojson_headers.features=undefined
         this.people = this.features.reduce((acc, cur) => acc.concat(cur.getPeople()), [])
         this.jobs = this.generateJobsArray().sort(comparator.compare)
+        this.jobCategories=Object.keys(macro_classes).sort(comparator.compare)
         this.addresses = this.generateAddressesArray().sort(comparator.compare)
+        Object.values(macro_classes).forEach((category) => category.sort(comparator.compare))
     }
 
     constructor(directory, features, people) {
@@ -90,10 +92,6 @@ class Directory {
             jobs.add(person.job)
         }
         return Array.from(jobs)
-    }
-
-    getJobCategories() {
-        return Object.keys(macro_classes)
     }
 
     getJobsOfCategory(category) {
