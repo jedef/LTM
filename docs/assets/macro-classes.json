@@ -1,5 +1,5 @@
 {
-    "artisanat": [
+    "Artisanat": [
         "charpentier",
         "céramiste",
         "cordonnier",
@@ -12,7 +12,6 @@
         "tapissier",
         "tonnelier",
         "maréchal-ferrant",
-        "mouleur",
         "forgeron",
         "encaisseur",
         "tanneur",
@@ -42,7 +41,7 @@
         "tréfileur",
         "bouclier"
     ],
-    "administration et politique": [
+    "Administration et Politique": [
         "administrateur",
         "chef d’institution",
         "consul d'Italie",
@@ -70,7 +69,7 @@
         "substitut du procueur génénéral",
         "huissier du Conseil d’Etat"
     ],
-    "postes à responsabilités": [
+    "Postes à responsabilités": [
         "administrateur",
         "chef d’institution",
         "consul d'Italie",
@@ -85,7 +84,7 @@
         "industriel",
         "substitut du procueur génénéral"
     ],
-    "commerces": [
+    "Commerces": [
         "caissière",
         "commerçant",
         "courtier",
@@ -103,14 +102,35 @@
         "modiste",
         "tabagiste",
         "pâtissier",
-        "drogiste",
         "primeurs",
         "cafetier",
         "pharmacien",
         "employé de pharmacie",
-        "d. de mag"
+        "d. de mag",
+        "laitier",
+        "restaurateur"
     ],
-    "transports": [
+    "Commerces Essentiels": [
+        "droguiste",
+        "boulanger",
+        "boucher",
+        "charcutier",
+        "épicier",
+        "confiseur",
+        "tabagiste",
+        "pharmacien",
+        "employé de pharmacie"
+    ],
+    "Élites": [
+        "consul d'Italie",
+        "consul de Belgique",
+        "directeur du Crédit Suisse",
+        "vice-consul d'italie",
+        "conseiller d'état",
+        "consul du Pérou",
+        "substitut du procueur génénéral"
+    ],
+    "Transports": [
         "chauffeur",
         "chauffeur CFF",
         "conducteur CFF",
@@ -132,7 +152,7 @@
         "manœuvre CFF",
         "chef bureau CFF"
     ],
-    "santé": [
+    "Santé": [
         "médecin",
         "dentiste",
         "infirmier",
@@ -143,7 +163,7 @@
         "employé de pharmacie",
         "oculiste"
     ],
-    "enseignement": [
+    "Enseignement": [
         "professeur de piano",
         "professeur de musique",
         "professeur de peinture",
@@ -155,7 +175,7 @@
         "professeur",
         "étudiant"
     ],
-    "arts": [
+    "Arts": [
         "artiste",
         "compositeur",
         "musicien",
@@ -175,38 +195,32 @@
         "éditeur",
         "peintre"
     ],
-    "hotellerie": [
+    "Hotellerie": [
         "cuisinier",
-        "chef",
         "sommelier",
         "femme de chambre",
         "concierge",
-        "ménagère",
-        "restaurateur",
-        "coiffeur",
         "lingère",
         "blanchisseuse",
         "domestique",
         "nettoyeur",
         "portier",
         "liftier",
-        "commis",
-        "pâtissier",
         "pension"
     ],
-    "securité": [
+    "Securité": [
         "policier",
         "gendarme",
         "brigadier de sûreté",
         "gardien de prison",
         "huissier"
     ],
-    "agriculture": [
+    "Agriculture": [
         "agriculteur",
         "vigneron",
         "laitier"
     ],
-    "banques, assurances et services": [
+    "Banques, Assurances et Services": [
         "banquier",
         "comptable",
         "assureur",
@@ -214,7 +228,6 @@
         "directeur du crédit suisse",
         "inspecteur d'assurances",
         "négociant",
-        "voyagiste",
         "commis",
         "dacytlographe",
         "secrétaire",
@@ -249,9 +262,6 @@
         "héliographe",
         "employé postal"
     ],
-    "Gaz": [
-        "employé du gaz"
-    ],
     "Industrie": [
         "électricien",
         "électricien CFF",
@@ -264,7 +274,6 @@
         "architecte",
         "mécanicien CFF",
         "mécanicien",
-        "architecte",
         "manœuvre",
         "ouvrier",
         "commis",
@@ -287,7 +296,8 @@
         "papetier",
         "combustibles",
         "appareilleur",
-        "batelier"
+        "batelier",
+        "mouleur"
     ],
     "Religion et spiritualité": [
         "évangéliste",
@@ -298,8 +308,28 @@
     "Douanes": [
         "employé des douanes"
     ],
+    "Luxe": [
+        "tailleur",
+        "corsetière",
+        "horloger",
+        "bijoutier",
+        "orfèvre",
+        "couturier",
+        "fleuriste",
+        "pâtissier",
+        "confiseur",
+        "fourreur"
+    ],
+    "Métiers Qualifiés": [
+        "ingénieur",
+        "chimiste",
+        "ingénieur-professeur",
+        "architecte",
+        "géomètre"
+    ],
     "Autres": [
         "rentier",
-        "veuve"
+        "veuve",
+        "ménagère"
     ]
 }
