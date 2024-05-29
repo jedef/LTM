@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Quartier sous gare lausannois: dynamiques et métiers entre 1923 et 1951"
+title: "Quartier sous-gare lausannois : dynamiques et métiers entre 1923 et 1951"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Un projet
-  <a style="color: white;" href="https://www.epfl.ch/schools/cdh/fr/enseignement/cours-unil-epfl/histoire-urbaine-a-lere-du-numerique-lausanne-time-machine/">Lausanne time machine</a>
+  <a style="color: white;" href="https://www.epfl.ch/schools/cdh/fr/enseignement/cours-unil-epfl/histoire-urbaine-a-lere-du-numerique-lausanne-time-machine/">Lausanne Time Machine</a>
   par Emilie Hamel, William Jossua, Antoine Moix et Jérémie De Faveri
 
 show_downloads: false
