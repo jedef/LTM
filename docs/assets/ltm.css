@@ -5,6 +5,10 @@
     color: red;
 }
 
+.reference {
+    font-weight: bold;
+}
+
 .config-container {
     margin: 10px 0;
     display: flex;
