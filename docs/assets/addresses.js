@@ -1,5 +1,10 @@
-import macro_classes from './macro-classes.json' with { type: 'json' };
 const allEntriesLabel="<tous>"
+
+const macro_classes_raw = await fetch('assets/macro-classes.json');
+if (!macro_classes_raw.ok) {
+    throw new Error('Loading of json failed with: ' + macro_classes_raw.statusText);
+}
+const macro_classes = await macro_classes_raw.json()
 
 class Feature {
     constructor(obj) {

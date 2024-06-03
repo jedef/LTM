@@ -1,10 +1,14 @@
-import geojson_1923 from './directory1923.geojson' with { type: 'json' };
-import geojson_1951 from './directory1951.geojson' with { type: 'json' };
 import Map from "./map.js"
 import Directory from './addresses.js';
 
-const directory_1923 = new Directory(geojson_1923)
-const directory_1951 = new Directory(geojson_1951)
+const directory_1923_raw = await fetch('assets/directory1923.geojson');
+const directory_1951_raw = await fetch('assets/directory1951.geojson');
+if (!directory_1923_raw.ok || !directory_1951_raw.ok) {
+    throw new Error('Loading of json failed with: ' + directory_1923_raw.statusText + ' and ' + directory_1951_raw.statusText);
+}
+
+const directory_1923 = new Directory(await directory_1923_raw.json())
+const directory_1951 = new Directory(await directory_1951_raw.json())
 const allEntriesLabel="<tous>"
 
 const data_year = {
